@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
+.tokenomics > h1{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+.animate{
+    display: flex;
+    justify-content: center;
+    
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: scaleX(1);
+      transform: scaleX(1);
+    }
+    to {
+      -webkit-transform: scaleX(-1);
+      transform: scaleX(-1);
+    }
+  }
+  @keyframes rotating {
+    from {
+     
+      -webkit-transform: scaleX(-1);
+     
+      transform: scaleX(-1);
+    }
+    to {
+   
+      -webkit-transform: scaleX(1);
+   
+      transform: scaleX(1);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    
+
+    animation: rotating 2s linear infinite;
+  }
