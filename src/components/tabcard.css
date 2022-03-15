@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  
+  
+  /* Clear floats after the columns */
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column2 {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card2 {
+    box-shadow: 0 6px 8px 0 rgba(219, 85, 8, 0.404); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #252525;
+  }
+  .card2 > h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    letter-spacing: var(--chakra-letterSpacings-widest);
+    font-size: larger;
+    padding-bottom: 20px;
+    color:white;
+    
+  }
+  .card2 > p{
+    
+    font-size: larger;
+    font-weight: lighter;
+    color:white;
+  
+  }

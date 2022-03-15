@@ -1,10 +1,11 @@
 import React from "react";
+import TabCard from "./Tabcards";
 import "./tabs.css"
 function Tabs(){
 return(
 <div class="tabs">
   
-  <input type="radio" id="tab1" name="tab-control"/>
+  <input type="radio" id="tab1" name="tab-control" checked/>
   <input type="radio" id="tab2" name="tab-control"/>
   <input type="radio" id="tab3" name="tab-control"/>  
   <input type="radio" id="tab4" name="tab-control"/>
@@ -22,8 +23,8 @@ return(
   
   <div class="slider"><div class="indicator"></div></div>
   <div class="content">
-    <section>
-      <h2>Features</h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolorem sequi, quo tempore in eum obcaecati atque quibusdam officiis est dolorum minima deleniti ratione molestias numquam. Voluptas voluptates quibusdam cum?</section>
+    <section><TabCard/>
+      </section>
         <section>
           <h2>Delivery Contents</h2>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem quas adipisci a accusantium eius ut voluptatibus ad impedit nulla, ipsa qui. Quasi temporibus eos commodi aliquid impedit amet, similique nulla.</section>

@@ -5,6 +5,8 @@ import Cards from "../../components/Cards"
 import Timeline from '../Timeline';
 import Token from '../Tokenomics';
 import Tabs from '../Tabs';
+import Footer from '../Footer';
+
 function SignUp()
 
 {
@@ -15,6 +17,7 @@ function SignUp()
     <Timeline/>
     <Token/>
     <Tabs/>
+    <Footer/>
     </>
   )
 }
