@@ -1,7 +1,7 @@
 .footer-container {
   padding-top: 80px;
   height: 900px;
-  background-image: url("../assets/mount.jpg");
+  background-color: transparent;
   background-size:cover;
   background-repeat: no-repeat;
   object-fit: cover;
