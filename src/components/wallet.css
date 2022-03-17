@@ -1,0 +1,14 @@
+.wallet{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    
+    height: 50%;
+    width: 50%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 3;
+    justify-content: center;
+    vertical-align: middle;
+    
+}

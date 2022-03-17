@@ -2,14 +2,15 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
-import mandir from "../assets/mandir.png"
+import mandir from "../assets/ramji.png"
 import ram from "../assets/ram.png"
+import jaishreeram from "../assets/jaishreeram.png"
 function HeroSection() {
   return (
     <div className='hero-container'>
       <img class="temple" src={mandir} />
-      <img src={ram} width="400px" style={{zIndex:"inherit"}} />
-      <h1>Jai Shree Ram
+      
+      <h1><img src={jaishreeram}/>
       </h1>
       
       <div className='hero-btns'>

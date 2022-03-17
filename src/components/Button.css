@@ -17,11 +17,14 @@
 }
 
 .btn--outline {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.644);
   color: #fff;
   padding: 8px 20px;
-  border: 1px solid var(--primary);
+  border: 2px solid #ff6600;
+
   transition: all 0.3s ease-out;
+  border-radius: 20px;
+  white-space: nowrap;
 }
 
 .btn--medium {

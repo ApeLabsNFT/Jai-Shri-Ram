@@ -7,7 +7,6 @@
  object-fit: cover;
  background-attachment: fixed;
  background-position: center;
-
 }
 .bg-container > h1{
     color: rgb(255, 255, 255);
@@ -25,7 +24,7 @@
   position: absolute;
   top:300px;
     margin-left:20px;
-    font-size: 50px;
+    font-size: 30px;
     margin-top: 20px;
       color: white;
 }

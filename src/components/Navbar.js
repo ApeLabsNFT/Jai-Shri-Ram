@@ -3,8 +3,10 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import swastik from "../assets/swastik.png"
-
+import PopUp from './pages/popup';
+import { SolletWalletAdapter } from '@solana/wallet-adapter-wallets';
 function Navbar() {
+  const [show, setShow] = useState(false);
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -27,7 +29,8 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+    {show && <PopUp/>}
+      <nav className='navbar' >
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           Ram Mandir
@@ -63,16 +66,19 @@ function Navbar() {
             </li>
 
             <li>
-              <Link
-                to='/sign-up'
+              <button
                 className='nav-links-mobile'
-                onClick={closeMobileMenu}
+                onClick={()=>{
+                  closeMobileMenu()
+                setShow(true)
+                }
+                }
               >
-                Sign Up
-              </Link>
+                Connect Wallet
+              </button>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline' onClick={()=>{setShow(true);closeMobileMenu(false)}}>Connect Wallet</Button>}
         </div>
       </nav>
     </>
