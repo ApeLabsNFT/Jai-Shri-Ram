@@ -3,8 +3,7 @@ import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import swastik from "../assets/swastik.png"
-import PopUp from './pages/popup';
-import { SolletWalletAdapter } from '@solana/wallet-adapter-wallets';
+import PopUp from './popup';
 function Navbar() {
   const [show, setShow] = useState(false);
   const [click, setClick] = useState(false);
@@ -33,7 +32,7 @@ function Navbar() {
       <nav className='navbar' >
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          Ram Mandir
+          JAI SHREE RAM
             <img src={swastik} width="25px" height = "25px" style={{paddingLeft:"2px"}}/>
           </Link>
 
@@ -43,7 +42,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                HOME
               </Link>
             </li>
             <li className='nav-item'>
@@ -52,7 +51,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Services
+                MINT
               </Link>
             </li>
             <li className='nav-item'>
@@ -61,7 +60,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+                FAQ
               </Link>
             </li>
 
@@ -74,7 +73,7 @@ function Navbar() {
                 }
                 }
               >
-                Connect Wallet
+                CONNECT WALLET
               </button>
             </li>
           </ul>

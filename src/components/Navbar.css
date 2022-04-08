@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
 .navbar {
   height: 80px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-image:linear-gradient(black,transparent);
 
   display: flex;
   justify-content: center;
@@ -10,9 +10,9 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  border-radius: 200px;
-  margin-left: 100px;
-  margin-right: 100px;
+  
+  letter-spacing: 5px;
+
   top: 1px;
   
 }
