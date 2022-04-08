@@ -10,7 +10,8 @@ function HeroSection() {
     <div className='hero-container'>
       <img class="temple" src={mandir} />
       
-      <h1><img src={jaishreeram}/>
+      <h1>
+        <img className="main-header-text" src={jaishreeram}/>
       </h1>
       
       <div className='hero-btns'>
