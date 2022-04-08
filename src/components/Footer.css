@@ -1,13 +1,13 @@
 .footer-container {
   padding-top: 80px;
-  height: 900px;
+  /* height: 900px; */
   background-color: transparent;
   background-size:cover;
   background-repeat: no-repeat;
   object-fit: cover;
   background-attachment: fixed;
   background-position: center;
-  background-image: url("../assets/mountfooter.jpg");
+  /* background-image: url("../assets/mountfooter.jpg"); */
 }
 @media screen and (max-width: 768px) {
 }
