@@ -15,14 +15,14 @@
   
     position: absolute;
     z-index: 2;
-    top:200px;
+    top:20%;
     margin-left:20px
 }
 .bg-container > p{
   z-index: 2;
   font-family: 'Kodchasan', sans-serif;
   position: absolute;
-  top:300px;
+  top:30%;
     margin-left:20px;
     font-size: 30px;
     margin-top: 20px;
@@ -36,7 +36,7 @@
   
     position: absolute;
     z-index: 2;
-    top:200px;
+    top:20%;
     margin-left:20px
 }
 .bg-container> p{
@@ -47,9 +47,10 @@
   position: absolute;
   z-index: 2;
   top:350px;
+  top:35%;
   margin-left:20px
 }
 }
 body{
-  background-color: rgba(0, 0, 0,0.9);
+    background-color: #000201;
 }
