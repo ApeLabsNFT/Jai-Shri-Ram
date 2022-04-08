@@ -42,7 +42,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
-              <h2 class="hero-nav glitch layers" data-text="HOME"><span>HOME</span></h2>
+              HOME
               </Link>
             </li>
             <li className='nav-item'>
@@ -51,7 +51,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <h2 class="hero-nav glitch layers" data-text="MINT"><span>MINT</span></h2>
+                MINT
               </Link>
             </li>
             <li className='nav-item'>
@@ -60,7 +60,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                <h2 class="hero-nav glitch layers" data-text="FAQ"><span>FAQ</span></h2>
+                FAQ
               </Link>
             </li>
 

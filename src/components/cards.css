@@ -17,6 +17,8 @@
   
   /* Remove extra left and right margins, due to padding in columns */
   .row {
+    
+  
       margin-top: 50px;
       margin: 4 -5px;
     }

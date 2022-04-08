@@ -9,18 +9,19 @@ function Timeline(){
   
   <i class="icon fa fa-home"></i>
   <div class="content slide-in-left">
-    <h2>Field Research</h2>
+    <h2>Launch of website
+</h2>
     <p>
-    First, we start Field Research for Shree Ram NFT holders to earn passive income by staking their NFTs.
+    10th April 2022
     </p>
   </div>
 </div>
 <div class="container right">
   <i class="icon fa fa-gift"></i>
   <div class="content slide-in-right">
-    <h2>Legendary Auctions</h2>
+    <h2>MINT LIVE</h2>
     <p>
-    We will hold auctions for several legendary 1/1 artworks by Shree Ram NFT artists.
+    April 17- April 23
     </p>
   </div>
 </div>
@@ -28,9 +29,12 @@ function Timeline(){
   
   <i class="icon fa fa-user"></i>
   <div class="content slide-in-left">
-    <h2>Labratory Research</h2>
+    <h2>25% SALE</h2>
     <p>
-    We will then launch Laboratory Research where holders can generate and own the next generation of NFTs in the Shree Ram NFT family.
+    Initiation of Mandir
+Quant (bot made to
+analyze data with
+partnered NFT project)
     </p>
   </div>
 </div>
@@ -38,9 +42,13 @@ function Timeline(){
   
   <i class="icon fa fa-running"></i>
   <div class="content slide-in-right">
-    <h2>Airdrops</h2>
+    <h2>50% SALE
+NFT Marketplace
+(partnership)</h2>
     <p>
-    A small amount of tokens will be airdropped to continuous supporters who have had their NFTs delisted!
+    Our holders never pay
+the 2% transaction fee.
+NEVER!!
     </p>
   </div>
 </div>
@@ -48,9 +56,12 @@ function Timeline(){
   
   <i class="icon fa fa-cog"></i>
   <div class="content slide-in-left">
-    <h2>15% GEN 2 REWARDS</h2>
-    <p>
-    2nd Gen NFT holders will be awarded for staking their NFTs.
+    <h2>75% SALE</h2>
+    <p>Partnering with Ram
+Mandir Trust (Ayodhya)
+and donate 20% of our
+profits to affiliated trust
+fund.
     </p>
   </div>
 </div>
@@ -58,7 +69,8 @@ function Timeline(){
   
   <i class="icon fa fa-certificate"></i>
   <div class="content slide-in-right">
-    <h2>Charity</h2>
+    <h2>Initiate PHASE 2
+(AAA Rated game)</h2>
     <p>
      Will be updated.
     </p>
