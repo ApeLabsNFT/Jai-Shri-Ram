@@ -18,9 +18,12 @@ top: 0;
 }
 
 @media screen and (max-width: 960px) {
-  .navbar-logo{
-    font-size: 1.5rem !important;
-    margin-top: 7px;
+  .hero{
+    font-size: clamp(12px, 10vw, 12px) !important;
+    margin-top: 10px;
+  }
+  .swastik-img{
+    margin-top: 10px;
   }
 }
 

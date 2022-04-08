@@ -33,7 +33,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           <h2 class="hero glitch layers" data-text="JAI SHREE RAM"><span>JAI SHREE RAM</span></h2>
-            <img src={swastik} width="25px" height = "25px" style={{paddingLeft:"2px"}}/>
+            <img className='swastik-img' src={swastik} width="25px" height = "25px" style={{paddingLeft:"2px"}}/>
           </Link>
 
           <div className='menu-icon' onClick={handleClick}>
