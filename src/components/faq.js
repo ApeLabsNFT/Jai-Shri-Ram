@@ -4,6 +4,7 @@ import './faq.css';
 function FAQ() {
   return (
       <div class="faq-container">
+          <div class="faq-container2">
 <div class="box-content-colapse">
 	<div class="intro-colapse">
 		<span class="caption primary-medium-color">check our faq</span>
@@ -67,7 +68,7 @@ function FAQ() {
         Will you cover the whole Ramayana in Phase 2?
 		</summary>
 		<p>Our big picture idea is to make a “Witcher 3” like Ramayana game and animated series for the next generation of India, as it carries our heritage in the most secure way possible as well as show our creative independence as a society.</p>
-	</details>
+	</details></div>
 
 </div></div>);
 }
