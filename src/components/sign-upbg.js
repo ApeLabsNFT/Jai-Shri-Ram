@@ -1,6 +1,5 @@
 import React from "react";
 import "./signupbg.css"
-import cover from "../assets/cover.jpeg"
 function Signupbg(){
     return(
         <div class="bg-container">

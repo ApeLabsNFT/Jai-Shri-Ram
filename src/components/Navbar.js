@@ -32,7 +32,7 @@ function Navbar() {
       <nav className='navbar' >
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          JAI SHREE RAM
+          <h2 class="hero glitch layers" data-text="JAI SHREE RAM"><span>JAI SHREE RAM</span></h2>
             <img src={swastik} width="25px" height = "25px" style={{paddingLeft:"2px"}}/>
           </Link>
 
@@ -42,7 +42,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
-                HOME
+              <h2 class="hero-nav glitch layers" data-text="HOME"><span>HOME</span></h2>
               </Link>
             </li>
             <li className='nav-item'>
@@ -51,7 +51,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                MINT
+                <h2 class="hero-nav glitch layers" data-text="MINT"><span>MINT</span></h2>
               </Link>
             </li>
             <li className='nav-item'>
@@ -60,7 +60,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                FAQ
+                <h2 class="hero-nav glitch layers" data-text="FAQ"><span>FAQ</span></h2>
               </Link>
             </li>
 
