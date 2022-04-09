@@ -9,6 +9,7 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const [showDropDown, setDropDown] = useState(false);
+  const [mobileDropDown, setMobileDropDown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -68,13 +69,18 @@ function Navbar() {
               <button
                 className='nav-links-mobile'
                 onClick={()=>{
-                  closeMobileMenu()
-                setShow(true)
+                  // closeMobileMenu()
+                // setShow(true)
+                setMobileDropDown(true)
                 }
                 }
               >
                 CONNECT WALLET
               </button>
+              {mobileDropDown &&<div style={{ padding: '10px' ,minWidth: '60px', maxWidth: '200px', borderRadius: '20px',backgroundColor: 'black' ,color: 'white', position: 'absolute', top: '100%', left: '50%', transform: 'translate(-50%, -20%)', zIndex: 999}}>
+              <div style={{ textAlign: 'end', marginBottom: '20px', cursor: 'pointer'}} onClick={() => setMobileDropDown(false)}>X</div>
+              <Wallet/>
+            </div>}
             </li>
           </ul>
           <div>
