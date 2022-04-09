@@ -8,6 +8,7 @@ function Navbar() {
   const [show, setShow] = useState(false);
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
+  const [showDropDown, setDropDown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -77,7 +78,15 @@ function Navbar() {
               </button>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline' onClick={()=>{setShow(true);closeMobileMenu(false)}}>Connect Wallet</Button>}
+          <div>
+            <div>
+              {button && <Button buttonStyle='btn--outline' onClick={()=>{setShow(true);closeMobileMenu(false); setDropDown(true)}}>Connect Wallet</Button>}
+            </div>
+            {showDropDown && <div style={{ padding: '10px' ,minWidth: '60px', maxWidth: '200px', borderRadius: '20px',backgroundColor: 'black' ,color: 'white', position: 'absolute'}}>
+              <div style={{ textAlign: 'end', marginBottom: '20px', cursor: 'pointer'}} onClick={() => setDropDown(false)}>X</div>
+              <span>Select Wallet</span>
+            </div>}
+          </div>
         </div>
       </nav>
     </>
