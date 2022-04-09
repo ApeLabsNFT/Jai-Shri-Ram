@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { Wallet } from './walletapdater';
 import swastik from "../assets/swastik.png"
-import PopUp from './popup';
 function Navbar() {
   const [show, setShow] = useState(false);
   const [click, setClick] = useState(false);
@@ -29,7 +29,6 @@ function Navbar() {
 
   return (
     <>
-    {show && <PopUp/>}
       <nav className='navbar' >
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -82,9 +81,9 @@ function Navbar() {
             <div>
               {button && <Button buttonStyle='btn--outline' onClick={()=>{setShow(true);closeMobileMenu(false); setDropDown(true)}}>Connect Wallet</Button>}
             </div>
-            {showDropDown && <div style={{ padding: '10px' ,minWidth: '60px', maxWidth: '200px', borderRadius: '20px',backgroundColor: 'black' ,color: 'white', position: 'absolute'}}>
+            {showDropDown && <div style={{ padding: '5px' ,minWidth: '60px', maxWidth: '200px', borderRadius: '20px',backgroundColor: 'rgba(0,0,0,0.7)' ,color: 'white', position: 'absolute'}}>
               <div style={{ textAlign: 'end', marginBottom: '20px', cursor: 'pointer'}} onClick={() => setDropDown(false)}>X</div>
-              <span>Select Wallet</span>
+              <Wallet/>
             </div>}
           </div>
         </div>

@@ -16,7 +16,8 @@
 }
 
 .wallet-adapter-button-trigger {
-    background-color: #008a39;
+    background-color: #ff6600;
+    border-radius: 40px;
 }
 
 .wallet-adapter-button:not([disabled]):focus-visible {
