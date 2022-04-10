@@ -20,7 +20,6 @@
   .card {
 	position: relative;
 	
-	
 	display: block;
 	height: 100%;  
 	border-radius: calc(var(--curve) * 1px);
@@ -56,6 +55,7 @@
 	position: relative;
 	display: flex;
 	align-items: center;
+	
 	gap: 2em;
 	padding: 2em;
 	border-radius: calc(var(--curve) * 1px) 0 0 0;    

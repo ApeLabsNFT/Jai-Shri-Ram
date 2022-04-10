@@ -33,6 +33,7 @@
     padding:20px;
     text-align: center;
     background-color: #252525;
+    border-radius: 40px;
   }
   .card2 > h1{
     font-family: 'IBM Plex Sans', sans-serif;
