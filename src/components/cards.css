@@ -27,21 +27,21 @@
     clear: both;
   }
   
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 6px 8px 0 rgba(219, 85, 8, 0.404); /* this adds the "card" effect */
+  /* Style the counter card2s */
+  .card2 {
+    box-shadow: 0 6px 8px 0 rgba(219, 85, 8, 0.404); /* this adds the "card2" effect */
     padding:20px;
     text-align: center;
     background-color: #252525;
   }
-  .card > h1{
+  .card2 > h1{
     font-family: 'IBM Plex Sans', sans-serif;
     letter-spacing: var(--chakra-letterSpacings-widest);
     font-size: larger;
     font-weight: bolder;
     color:white;
   }
-  .card > p{
+  .card2 > p{
     font-size: larger;
     font-weight: bolder;
     color:white;
