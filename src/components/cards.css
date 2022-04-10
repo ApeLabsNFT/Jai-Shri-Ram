@@ -17,11 +17,8 @@
   
   /* Remove extra left and right margins, due to padding in columns */
   .row {
-    
-  
-      margin-top: 50px;
-      margin: 4 -5px;
-    }
+   margin-top: 1%;
+  }
   
   /* Clear floats after the columns */
   .row:after {
