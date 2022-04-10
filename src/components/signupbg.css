@@ -51,6 +51,29 @@
   margin-left:20px
 }
 }
+@media screen and (max-width: 768px) {
+  .bg-container > h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;  
+    font-family: 'Kodchasan', sans-serif;
+  
+    position: absolute;
+    z-index: 2;
+    top:20%;
+    margin-left:20px
+}
+.bg-container> p{
+  color: rgb(255, 255, 255);
+  font-size: 20px;  
+  font-family: 'Kodchasan', sans-serif;
+
+  position: absolute;
+  z-index: 2;
+  top:350px;
+  top:45%;
+  margin-left:20px
+}
+}
 body{
   overflow-x: hidden;
     background-color: #000201;
