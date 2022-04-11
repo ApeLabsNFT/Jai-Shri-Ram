@@ -54,7 +54,7 @@
 @media screen and (max-width: 768px) {
   .bg-container > h1{
     color: rgb(255, 255, 255);
-    font-size: 50px;  
+    font-size: 40px;  
     font-family: 'Kodchasan', sans-serif;
   
     position: absolute;
@@ -110,6 +110,29 @@
 .bg-container> p{
   color: rgb(255, 255, 255);
   font-size: 30px;  
+  font-family: 'Kodchasan', sans-serif;
+
+  position: absolute;
+  z-index: 2;
+  top:350px;
+  top:45%;
+  margin-left:20px
+}
+}
+@media screen and (min-width:1500px) {
+  .bg-container > h1{
+    color: rgb(255, 255, 255);
+    font-size: 90px;  
+    font-family: 'Kodchasan', sans-serif;
+  
+    position: absolute;
+    z-index: 2;
+    top:30%;
+    margin-left:20px
+}
+.bg-container> p{
+  color: rgb(255, 255, 255);
+  font-size: 40px;  
   font-family: 'Kodchasan', sans-serif;
 
   position: absolute;
