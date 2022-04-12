@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
+ .addition{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+}
+@media screen and (max-width: 420px) {
+	.newtime {
+		font-family: 'IBM Plex Sans', sans-serif;
+		 text-align: center;
+		 font-size: 1.2em;
+		 line-height: 1.5em;
+		 border-top: 3px solid;
+		 border-image: linear-gradient(to right, #743ad5 0%, #ff6600 100%);
+		 border-image-slice: 1;
+		 border-width: 3px;
+		 padding-top: 10%;
+		 padding-bottom: 10%;
+		 counter-increment: section;
+		 position: relative;
+		 color: #ffffff;
+		 font-weight:bolder;
+		 
+	}
+	
+}
+ main {
+	 min-width: 20%;
+	 max-width: 40%;
+	 margin: auto;
+	 overflow-x: none;
+     
+}
+.roadhead{
+
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .newtime {
+	font-family: 'IBM Plex Sans', sans-serif;
+	 text-align: center;
+	 font-size: 1.2em;
+	 line-height: 1.5em;
+	 border-top: 3px solid;
+	 border-image: linear-gradient(to right, #743ad5 0%, #ff6600 100%);
+	 border-image-slice: 1;
+	 border-width: 3px;
+	 padding-top: 10%;
+	 padding-bottom: 10%;
+	 counter-increment: section;
+	 position: relative;
+	 color: #ffffff;
+	 font-weight:bolder;
+	 
+}
+ .newtime:before {
+
+	 content: counter(section);
+	 position: absolute;
+	 border-radius: 50%;
+	 padding: 4%;
+	 height: 1.5em;
+	 width: 1.5em;
+	 line-height: 10%;
+	 color: rgb(255, 255, 255);
+	 font-size: 2em;
+	 content:counter(section, upper-roman);
+	 
+
+
+}
+ .newtime:nth-child(odd) {
+	 border-right: 3px solid;
+
+}
+ .newtime:nth-child(odd):before {
+	 right: -15%;
+	 top: 40%;
+}
+ .newtime:nth-child(even) {
+	 border-left: 3px solid;
+	
+}
+ .newtime:nth-child(even):before {
+	 left: -20%;
+	 top: 40%;
+	 
+}
+ .newtime:first-child {
+	 border-top: 0;
+	 border-top-right-radius:0;
+	 border-top-left-radius: 0;
+}
+ .newtime:last-child {
+	 border-bottom-right-radius: 0;
+	 border-bottom-left-radius: 0;
+}
+ 

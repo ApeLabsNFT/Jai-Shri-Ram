@@ -8,7 +8,7 @@
  background-attachment: fixed;
  background-position: center;
 }
-.bg-container > h1{
+.bg-container > .heading-h{
     color: rgb(255, 255, 255);
     font-size: 100px;  
     font-family: 'Kodchasan', sans-serif;
@@ -18,7 +18,7 @@
     top:20%;
     margin-left:20px
 }
-.bg-container > p{
+.bg-container > .heading-p{
   z-index: 2;
   font-family: 'Kodchasan', sans-serif;
   position: absolute;
@@ -29,7 +29,7 @@
       color: white;
 }
 @media screen and (max-width: 960px) {
-  .bg-container > h1{
+  .bg-container > .heading-h{
     color: rgb(255, 255, 255);
     font-size: 50px;  
     font-family: 'Kodchasan', sans-serif;
@@ -39,7 +39,7 @@
     top:20%;
     margin-left:20px
 }
-.bg-container> p{
+.bg-container> .heading-p{
   color: rgb(255, 255, 255);
   font-size: 20px;  
   font-family: 'Kodchasan', sans-serif;
@@ -52,7 +52,7 @@
 }
 }
 @media screen and (max-width: 768px) {
-  .bg-container > h1{
+  .bg-container > .heading-h{
     color: rgb(255, 255, 255);
     font-size: 40px;  
     font-family: 'Kodchasan', sans-serif;
@@ -62,7 +62,7 @@
     top:20%;
     margin-left:20px
 }
-.bg-container> p{
+.bg-container> .heading-p{
   color: rgb(255, 255, 255);
   font-size: 20px;  
   font-family: 'Kodchasan', sans-serif;
@@ -75,7 +75,7 @@
 }
 }
 @media screen and (max-width: 1300px) {
-  .bg-container > h1{
+  .bg-container > .heading-h{
     color: rgb(255, 255, 255);
     font-size: 50px;  
     font-family: 'Kodchasan', sans-serif;
@@ -85,7 +85,7 @@
     top:30%;
     margin-left:20px
 }
-.bg-container> p{
+.bg-container> .heading-p{
   color: rgb(255, 255, 255);
   font-size: 30px;  
   font-family: 'Kodchasan', sans-serif;
@@ -97,7 +97,7 @@
   margin-left:20px
 }}
 @media screen and (max-width: 1500px) and (min-width: 1300px)  {
-  .bg-container > h1{
+  .bg-container > .heading-h{
     color: rgb(255, 255, 255);
     font-size: 50px;  
     font-family: 'Kodchasan', sans-serif;
@@ -107,7 +107,7 @@
     top:30%;
     margin-left:20px
 }
-.bg-container> p{
+.bg-container> .heading-p{
   color: rgb(255, 255, 255);
   font-size: 30px;  
   font-family: 'Kodchasan', sans-serif;
@@ -120,7 +120,7 @@
 }
 }
 @media screen and (min-width:1500px) {
-  .bg-container > h1{
+  .bg-container > .heading-h{
     color: rgb(255, 255, 255);
     font-size: 90px;  
     font-family: 'Kodchasan', sans-serif;
@@ -130,7 +130,7 @@
     top:30%;
     margin-left:20px
 }
-.bg-container> p{
+.bg-container> .heading-p{
   color: rgb(255, 255, 255);
   font-size: 40px;  
   font-family: 'Kodchasan', sans-serif;
@@ -142,7 +142,7 @@
   margin-left:20px
 }}
 @media screen and (max-width: 500px) and (min-width: 300px)  {
-  .bg-container > h1{
+  .bg-container > .heading-h{
     color: rgb(255, 255, 255);
     font-size: 40px;  
     font-family: 'Kodchasan', sans-serif;
@@ -152,7 +152,7 @@
     top:30%;
     margin-left:20px
 }
-.bg-container> p{
+.bg-container> .heading-p{
   color: rgb(255, 255, 255);
   font-size: 30px;  
   font-family: 'Kodchasan', sans-serif;

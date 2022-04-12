@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
+.tokenomics{
+margin-top: 10%;
+}
 .tokenomics > h1{
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;

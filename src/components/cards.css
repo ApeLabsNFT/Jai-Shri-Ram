@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
-* {
-    box-sizing: border-box;
-  }
-  
+
   body {
     font-family: 'Kodchasan', sans-serif;
   }
@@ -17,7 +14,7 @@
   
   /* Remove extra left and right margins, due to padding in columns */
   .row {
-   margin-top: 1%;
+  margin: 5%;
   }
   
   /* Clear floats after the columns */
@@ -29,7 +26,7 @@
   
   /* Style the counter card2s */
   .card2 {
-    box-shadow: 0 6px 8px 0 rgba(219, 85, 8, 0.404); /* this adds the "card2" effect */
+    box-shadow: 0px 0px 8px 2px #ff6600; /* this adds the "card2" effect */
     padding:20px;
     text-align: center;
     background-color: #252525;

@@ -1,81 +1,70 @@
 import React from "react"
 import "./timeline.css"
 function Timeline(){
-    return(
-        
-<div class="timeline">
-    <h1>ROADMAP</h1>
-<div class="container left">
-  
-  <i class="icon fa fa-home"></i>
-  <div class="content slide-in-left">
-    <h2>Launch of website
-</h2>
-    <p>
-    10th April 2022
-    </p>
-  </div>
-</div>
-<div class="container right">
-  <i class="icon fa fa-gift"></i>
-  <div class="content slide-in-right">
-    <h2>MINT LIVE</h2>
-    <p>
-    April 17- April 23
-    </p>
-  </div>
-</div>
-<div class="container left">
-  
-  <i class="icon fa fa-user"></i>
-  <div class="content slide-in-left">
-    <h2>25% SALE</h2>
-    <p>
-    Initiation of Mandir
-Quant (bot made to
-analyze data with
-partnered NFT project)
-    </p>
-  </div>
-</div>
-<div class="container right">
-  
-  <i class="icon fa fa-running"></i>
-  <div class="content slide-in-right">
-    <h2>50% SALE
-NFT Marketplace
-(partnership)</h2>
-    <p>
-    Our holders never pay
-the 2% transaction fee.
-NEVER!!
-    </p>
-  </div>
-</div>
-<div class="container left">
-  
-  <i class="icon fa fa-cog"></i>
-  <div class="content slide-in-left">
-    <h2>75% SALE</h2>
-    <p>Partnering with Ram
-Mandir Trust (Ayodhya)
-and donate 20% of our
-profits to affiliated trust
-fund.
-    </p>
-  </div>
-</div>
-<div class="container right">
-  
-  <i class="icon fa fa-certificate"></i>
-  <div class="content slide-in-right">
-    <h2>Initiate PHASE 2
-(AAA Rated game)</h2>
-    <p>
-     Will be updated.
-    </p>
-  </div>
-</div>
-</div>)
+    return(<>
+        <h1 class="addition">LATEST ADDITIONS</h1>
+<section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="1"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2009-2011</h4>
+                                <h4 class="subheading">Our Humble Beginnings</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..."/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>March 2011</h4>
+                                <h4 class="subheading">An Agency is Born</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..."/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>December 2015</h4>
+                                <h4 class="subheading">Transition to Full Service</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..."/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>July 2020</h4>
+                                <h4 class="subheading">Phase Two Expansion</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br></br>
+                                Of Our
+                                <br></br>
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        </>
+)
 }
 export default Timeline;

@@ -14,7 +14,7 @@ function Cards() {
     </div>
     <div class="column">
       <div class="card2"> 
-      <h1>Holders</h1>
+      <h1>Traits</h1>
       <br></br>
       <p>$0.01</p>
       <br></br>
