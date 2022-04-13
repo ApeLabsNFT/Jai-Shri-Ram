@@ -4,7 +4,7 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 
 
-function Home() {
+function Root() {
   return (
     <>
       <HeroSection />
@@ -12,4 +12,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Root;

@@ -1,15 +1,15 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import Home from './components/pages/Root';
+import Root from './components/pages/Root';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
 import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import Home from './components/pages/home';
+import Faq from './components/pages/faq';
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
       <Router>
       <Navbar/>
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/' element={<Root />} />
           <Route exact path='/services' element={<Services/>} />
-          <Route path='/products' element={<Products/>} />
-          <Route exact path='/home' element={<SignUp/>} />
+          <Route path='/FAQ' element={<Faq/>} />
+          <Route exact path='/home' element={<Home/>} />
         </Routes>
       </Router>
     </>
