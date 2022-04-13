@@ -3,7 +3,7 @@ import "./timeline2.css"
 function Timeline2(){
     return(<>
     <h1 class="addition">ROADMAP</h1>
-    <main>
+    <main className="timeline-res">
         <p class="newtime"><p class="roadhead">10th April 2022</p><br></br>Launch of website</p>
         <p class="newtime"><p class="roadhead">17th April 2022 - 22th April 2022</p><br></br>MINT LIVE</p>
         <p class="newtime"><p class="roadhead">25% SALE</p><br></br>Initiation of Mandir Quant<br></br>(bot made to analyze data with partnered NFT project)</p>

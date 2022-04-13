@@ -23,15 +23,23 @@
 		 font-weight:bolder;
 		 
 	}
+	.timeline-res{
+		max-width: 100% !important;
+	}
+}
+ /* main {
 	
-}
- main {
-	 min-width: 20%;
-	 max-width: 40%;
-	 margin: auto;
-	 overflow-x: none;
      
+} */
+
+
+.timeline-res{
+	min-width: 30%;
+	max-width: 40%;
+	margin: auto;
+	overflow-x: none;
 }
+
 .roadhead{
 
 	color: white;
