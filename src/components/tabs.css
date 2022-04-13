@@ -55,9 +55,9 @@
 	position: relative;
 	display: flex;
 	align-items: center;
+	padding: 5%;
 	
-	gap: 2em;
-	padding: 2em;
+	
 	border-radius: calc(var(--curve) * 1px) 0 0 0;    
 	background-color: var(--surface-color);
 	transform: translateY(-100%);
@@ -117,7 +117,7 @@
 	color: #6A515E;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 9;
+	-webkit-line-clamp: 8;
 	overflow: hidden;
   }    
   .trait{
