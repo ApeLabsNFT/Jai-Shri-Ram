@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
 
 .faq-container{
-    width: 100%;
+    /* width: 100%;
     
 	height: auto;
 	min-height: 100vh;
@@ -10,22 +10,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
-    display: flex;
-	flex-direction: column;
-    float: none;
+    display: flex; */
+	/* flex-direction: column; */
+    /* float: none; */
 	background-color: #FFE53B;
 	background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
-	background-size: 100% 100%;
-	background-attachment: fixed;
+	/* background-size: 100% 100%; */
+	/* background-attachment: fixed; */
 	
 }    
 
 .faq-container2{
-	padding-top: 20px;
+	/* padding-top: 20px; */
 	
     width: 60%;
 	overflow-y: scroll;
-	height: auto;
+	/* height: auto; */
     min-height: 100%;
     top: 50%;
     left: 50%;
@@ -46,7 +46,7 @@
 }
 .caption {
 	
-    	font-size: 40px;
+	font-size: 40px;
 	font-style: normal;
 	font-family: 'Kodchasan', sans-serif;
 	font-weight: 700;
