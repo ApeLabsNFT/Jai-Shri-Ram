@@ -26,18 +26,51 @@
   
   /* Style the counter card2s */
   .card2 {
-    box-shadow: 0px 0px 8px 2px #ff6600; /* this adds the "card2" effect */
-    padding:20px;
+    padding:20%;
     text-align: center;
-    background-color: #252525;
-    border-radius: 40px;
-  }
+    
+      --border-width: 3px;
+      position: relative;
+      display: block;
+      justify-content: center;
+      align-items: center;
+      min-height: 180px;
+      width: auto;
+      height: auto;
+      font-family: Lato, sans-serif;
+      
+      text-transform: uppercase;
+      color: white;
+      background: #222;
+      border-radius: var(--border-width);
+   }
+    .card2::after {
+
+      position: absolute;
+      content: "";
+      top: calc(-1 * var(--border-width));
+      left: calc(-1 * var(--border-width));
+      z-index: -1;
+      width: calc(100% + var(--border-width) * 2);
+      height: calc(100% + var(--border-width) * 2);
+      background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f2cb5f, #abf25f, #5ff281, #5ff2f0);
+      background-size: 300% 300%;
+      background-position: 0 50%;
+      border-radius: calc(2 * var(--border-width));
+      animation: moveGradient 4s alternate infinite;
+   }
+    @keyframes moveGradient {
+      50% {
+        background-position: 100% 50%;
+     }
+   }
   .card2 > h1{
     font-family: 'IBM Plex Sans', sans-serif;
     letter-spacing: var(--chakra-letterSpacings-widest);
     font-size: larger;
     font-weight: bolder;
     color:white;
+    text-align: center;
   }
   .card2 > p{
     font-size: larger;
@@ -53,3 +86,4 @@
       margin-bottom: 20px;
     }
   }
+  

@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css';
 import Signupbg from "../../components/sign-upbg"
 import Cards from "../../components/Cards"
-import Timeline from '../Timeline';
 import Timeline2 from '../timeline2';
 import Token from '../Tokenomics';
 import Tabs from '../Tabs';
@@ -19,6 +18,7 @@ function SignUp()
     <Token/>
     <Tabs/>
     <Footer/>
+
     </>
   )
 }
