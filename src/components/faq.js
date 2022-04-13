@@ -4,7 +4,7 @@ import './faq.css';
 function FAQ() {
   return (
 	  <div className='faq-container' style={{ display: 'flex'}}>
-		  <div style={{color: 'white', paddingTop: '20px', textAlign: 'center', width: '70%', margin: 'auto'}}>
+		  <div style={{color: 'white', paddingTop: '20px',  width: '70%', margin: 'auto'}}>
       <div >
 		  <div class="intro-colapse" style={{ paddingBottom: '20px'}}>
 			<span class="caption primary-medium-color">check our faq</span>
