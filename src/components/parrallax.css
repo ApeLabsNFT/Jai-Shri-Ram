@@ -10,7 +10,6 @@
   overflow:hidden;
   position: relative;
 }
-
 @keyframes anime{
   0%{
     bottom: 5px;
