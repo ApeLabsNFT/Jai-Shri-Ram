@@ -41,7 +41,7 @@
       
       text-transform: uppercase;
       color: white;
-      background: #222;
+      background: rgba(0,0,0,1);
       border-radius: var(--border-width);
    }
     .card2::after {

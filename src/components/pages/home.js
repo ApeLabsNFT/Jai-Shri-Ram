@@ -6,16 +6,16 @@ import Timeline2 from '../timeline2';
 import Token from '../Tokenomics';
 import Tabs from '../Tabs';
 import Footer from '../Footer';
+import Parrallax from '../parrallax';
 
 function Home()
 
 {
   return(
     <>
-    <Signupbg />
+    <Parrallax/>
     <Cards/>
     <Timeline2/>
-    <Token/>
     <Tabs/>
     <Footer/>
 

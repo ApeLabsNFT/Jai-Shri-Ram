@@ -1,14 +1,50 @@
-.footer-container {
-  padding-top: 80px;
-  /* height: 900px; */
-  background-color: transparent;
-  background-size:cover;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-attachment: fixed;
-  background-position: center;
-
-  /* background-image: url("../assets/mountfooter.jpg"); */
+.Box{
+  border-radius: 40px;
+padding-top: 5%;
+padding-bottom: 1%;
+background-color: rgba(0,0,0,0.5);
+position: relative;
+bottom: 0;
+width: 100%;
 }
-@media screen and (max-width: 768px) {
+ 
+@media (max-width: 1000px) {
+  .Box{
+    padding-top: 20%;
+}}
+.Container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-width: 1000px;
+margin: 0 auto;
+/* background: red; */}
+.Column
+{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+}
+.Row{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  grid-gap: 20px;
+   
+}
+.FooterLink{
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-decoration: none;
+}
+.FooterLink:hover{
+  filter: drop-shadow(0 1px 3px);
+}
+
+.Heading{
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+  font-weight: bold;
 }

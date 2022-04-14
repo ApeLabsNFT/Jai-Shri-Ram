@@ -3,12 +3,12 @@
   height: 1000px;
   min-width: 300px;
   min-height: 200px;
- background-image: url("../assets/cover.jpeg");
+  background-image: url("../assets/Asset\ 53.png");
  background-size: inherit;
  background-repeat: no-repeat;
  object-fit: cover;
  background-attachment: fixed;
- background-position: center;
+ background-position: left;
 }
 .bg-container > .heading-h{
     color: rgb(255, 255, 255);
@@ -147,12 +147,12 @@
   .bg-container{
     height: 1000px;
     width: auto;
-   background-image: url("../assets/cover.jpeg");
-   background-size: inherit;
-   background-repeat: no-repeat;
-   object-fit: cover;
-   background-attachment: fixed;
-   background-position: center;
+    background-size: inherit;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+ background-position: left;
+
   }
   
   .bg-container > .heading-h{
@@ -178,4 +178,7 @@
 body{
   overflow-x: hidden;
     background-color: #000201;
+    background-image: url("../assets/Asset\ 38.png");
+    background-repeat: repeat;
+    
 }

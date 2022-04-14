@@ -3,15 +3,14 @@ import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
 import mandir from "../assets/ramji.png"
-import ram from "../assets/ram.png"
 import jaishreeram from "../assets/jaishreeram.png"
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <img class="temple" src={mandir} />
+      <img class="temple" src={mandir} alt="Ram Mandir" />
       
       <h1>
-        <img className="main-header-text" src={jaishreeram}/>
+        <img className="main-header-text" src={jaishreeram} alt="Jai Shri Ram"/>
       </h1>
       
       <div className='hero-btns'>
