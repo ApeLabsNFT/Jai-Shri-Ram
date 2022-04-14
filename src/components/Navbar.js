@@ -5,7 +5,7 @@ import './Navbar.css';
 import { Wallet } from './walletapdater';
 import swastik from "../assets/swastik.png"
 function Navbar() {
-  const [ setShow] = useState(false);
+  const [ show,setShow] = useState(false);
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
   const [showDropDown, setDropDown] = useState(false);
