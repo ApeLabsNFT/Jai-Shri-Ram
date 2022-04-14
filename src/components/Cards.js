@@ -1,6 +1,6 @@
 import React from 'react';
 import './cards.css';
-
+import ScrollAnimation from 'react-animate-on-scroll';
 function Cards() {
   return (
     <div class="row">
@@ -37,6 +37,7 @@ function Cards() {
       </div>
     </div>
   </div> 
+
   );
 }
 

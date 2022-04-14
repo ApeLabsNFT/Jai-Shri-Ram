@@ -44,6 +44,12 @@
       background: rgba(0,0,0,1);
       border-radius: var(--border-width);
    }
+   .card2:hover{
+     background: transparent;
+     -webkit-box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
+-moz-box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
+box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
+   }
     .card2::after {
 
       position: absolute;

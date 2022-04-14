@@ -7,13 +7,13 @@ import Token from '../Tokenomics';
 import Tabs from '../Tabs';
 import Footer from '../Footer';
 import Parrallax from '../parrallax';
-
 function Home()
 
 {
   return(
     <>
     <Parrallax/>
+   
     <Cards/>
     <Timeline2/>
     <Tabs/>
