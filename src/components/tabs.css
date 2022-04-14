@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
  .addition{
+	 padding: 3%;
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
     text-align: center;
 }
 :root {
-	--surface-color: rgba(255,255,255,0.9);
+	--surface-color: rgba(0, 0, 0, 0.9);
 	--curve: 40;
   }  
   .cards {
@@ -18,6 +19,7 @@
   }
   
   .card {
+	border:2px solid #7d1fa8;
 	position: relative;
 	
 	display: block;
@@ -50,16 +52,21 @@
 	  
 	transform: translateY(0);
   }
-  
+  .card:hover{
+	  
+	-webkit-box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
+	-moz-box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
+	box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
+  }
   .card__header {
 	position: relative;
 	display: flex;
 	align-items: center;
 	padding: 5%;
-	
+
 	
 	border-radius: calc(var(--curve) * 1px) 0 0 0;    
-	background-color:rgba(255,255,255,0.9);
+	background-color:rgba(0, 0, 0, 0.9);
 	transform: translateY(-100%);
 	transition: .2s ease-in-out;
   }
@@ -93,7 +100,7 @@
   .card__title {
 	font-size: 1em;
 	margin: 0 0 .3em;
-	color: #6A515E;
+	color: #ffffff;
   }
   
   .card__tagline {
@@ -115,7 +122,7 @@
 	margin: 0;
 	font-size: 1em;
 	margin: 0 0 .3em;
-	color: #6A515E;
+	color: #ffffff;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 8;
