@@ -7,7 +7,7 @@ function FAQ() {
 		  <div style={{color: 'white', paddingTop: '20px',  width: '70%', margin: 'auto'}}>
       <div >
 	  <h1  className="con">"  FAQ  "</h1> 
-		  <div class="intro-colapse" style={{ paddingBottom: '20px'}}>
+		  <div class="intro-colapse" style={{ paddingBottom: '20px', color:"white"}}>
 		</div>
 
 	<details class="details-comp">
@@ -74,12 +74,3 @@ function FAQ() {
 );
 }
 export default FAQ;
-
-<div class="faq-container">
-          <div class="faq-container2">
-<div class="box-content-colapse">
-	
-	</div>
-
-</div>
-</div>
