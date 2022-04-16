@@ -3,7 +3,10 @@
   border: 0.2px solid rgb(255, 255, 255);
 padding-top: 5%;
 padding-bottom: 1%;
-background-color: rgba(0,0,0,0.5);
+background-color: rgba(0, 0, 0, 0.5);
+background-image: url("../assets/Asset 79.svg");
+background-repeat: repeat;
+background-position:center;
 position: relative;
 bottom: 0;
 width: 100%;
@@ -13,7 +16,12 @@ width: 100%;
   .Box{
     padding-top: 20%;
 }}
+svg {
+  color : "red";
+}
 .Container{
+  
+
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -22,10 +30,13 @@ margin: 0 auto;
 /* background: red; */}
 .Column
 {
+  border-radius: 40px;
+  padding:2%;
   display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
+  background-color: rgba(0,0,0,0.7);
 }
 .Row{
   display: grid;
@@ -34,13 +45,16 @@ margin: 0 auto;
    
 }
 .FooterLink{
-  color: #fff;
+  color: white;
+  text-decoration: solid;
+  text-shadow: #ff6000;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 1.2em;
   text-decoration: none;
+  padding: 2px;
 }
 .FooterLink:hover{
-  filter: drop-shadow(0 1px 3px);
+  text-shadow: ;
 }
 
 .Heading{

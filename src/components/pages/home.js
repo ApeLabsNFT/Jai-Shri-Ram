@@ -16,7 +16,9 @@ function Home()
    
     <Cards/>
     <Timeline2/>
+    <Token/>
     <Tabs/>
+
     <Footer/>
 
     </>

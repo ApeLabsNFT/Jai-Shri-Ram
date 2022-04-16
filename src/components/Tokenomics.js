@@ -1,62 +1,30 @@
 
 import React from "react";
+import { useState,useEffect } from "react";
+import FOUR from "../assets/4.png"
 import "./token.css"
-const colors = ["#0088FE", "#00C49F", "#FFBB28"];
-const delay = 2500;
+import ELEVEN from "../assets/11.png"
+import SEVENTEEN from "../assets/17.png"
+import "./token.css"
+const images = [FOUR, ELEVEN, SEVENTEEN];
+export default function SlideShow() {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-function Slideshow() {
-  const [index, setIndex] = React.useState(0);
-  const timeoutRef = React.useRef(null);
-
-  function resetTimeout() {
-    if (timeoutRef.current) {
-      clearTimeout(timeoutRef.current);
-    }
-  }
-
-  React.useEffect(() => {
-    resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === colors.length - 1 ? 0 : prevIndex + 1
-        ),
-      delay
-    );
-
-    return () => {
-      resetTimeout();
-    };
-  }, [index]);
-
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            if(currentIndex === images.length - 1) {
+                setCurrentIndex(0);
+            } 
+            else {
+                 setCurrentIndex(currentIndex + 1);
+            }
+        }, 5000)
+        
+        return () => clearInterval(intervalId);
+    }, [currentIndex])
   return (
-    <div className="slideshow">
-      <div
-        className="slideshowSlider"
-        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-      >
-        {colors.map((backgroundColor, index) => (
-          <div
-            className="slide"
-            key={index}
-            style={{ backgroundColor }}
-          ></div>
-        ))}
+      <div className="slide">
+           <img className="glitch" src={images[currentIndex]} />
       </div>
-
-      <div className="slideshowDots">
-        {colors.map((_, idx) => (
-          <div
-            key={idx}
-            className={`slideshowDot${index === idx ? " active" : ""}`}
-            onClick={() => {
-              setIndex(idx);
-            }}
-          ></div>
-        ))}
-      </div>
-    </div>
-  );
+  )
 }
-
-export default Slideshow
