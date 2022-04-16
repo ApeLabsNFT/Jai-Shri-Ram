@@ -4,13 +4,17 @@ import NFT9 from "../assets/9.png"
 import NFT15 from "../assets/15.png"
 import NFT18 from "../assets/18.png"
 import NFT27 from "../assets/27.png"
+import NFT93 from "../assets/93.png"
+import NFT296 from "../assets/296.png"
+import NFT342 from "../assets/342.png"
+import NFT396 from "../assets/396.png"
 function Tabs(){
   return(<>
   <h1 class="addition">LATEST ADDITIONS</h1>
   <ul class="cards">
   <li>
     <span class="card">
-      <img src={NFT15} class="card__image" alt="" />
+      <img src={NFT93} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
@@ -33,7 +37,7 @@ function Tabs(){
   </li>
   <li>
     <span class="card">
-      <img src={NFT27} class="card__image" alt="" />
+      <img src={NFT296} class="card__image" alt="" />
       <div class="card__overlay">        
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
@@ -55,7 +59,7 @@ function Tabs(){
   </li>
   <li>
     <span class="card">
-      <img src={NFT18} class="card__image" alt="" />
+      <img src={NFT342} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
@@ -79,7 +83,7 @@ function Tabs(){
   </li>
   <li>
     <span class="card">
-      <img src={NFT9} class="card__image" alt="" />
+      <img src={NFT396} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
