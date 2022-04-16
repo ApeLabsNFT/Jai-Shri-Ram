@@ -13,8 +13,10 @@
     display: flex; */
 	/* flex-direction: column; */
     /* float: none; */
-	background: transparent;
-	background-blend-mode: darken;
+	margin-top: -5%;
+	padding-top:5% ;
+	background-image: url("../assets/Faq.png");
+	
 	/* background-size: 100% 100%; */
 	/* background-attachment: fixed; */
 	
@@ -94,8 +96,8 @@
 	border-radius: 40px;
 	margin-bottom: 32px;
 	position: relative;
-	left: 0px;;
-	border: 3px solid #ff6000;
+	color: #8d837e;
+	border: 3px solid #b3501896;
 	background:rgba(255,255, 255, 0.1);
 	filter: drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.04));
 	-webkit-filter: drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.04));
@@ -108,6 +110,7 @@
 }
 
 .summary-colapse {
+	text-transform: uppercase;
 	list-style: none;
 	border-radius: 8px;
 	padding-left: 16px;
@@ -163,7 +166,7 @@
 
 .con {
 	font-size: 10rem;
-	margin-left: 10%;
+	margin-left: 0%;
 	font-weight: 900;
 	color: #8d837e;
 	
@@ -209,4 +212,5 @@
 	  
 	}
   }
+
   

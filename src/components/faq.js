@@ -2,10 +2,11 @@ import React from 'react';
 import './faq.css';
 
 function FAQ() {
-  return (<><h1  className="con">"  FAQ  "</h1> 
+  return (<>
 	  <div className='faq-container' style={{ display: 'flex'}}>
 		  <div style={{color: 'white', paddingTop: '20px',  width: '70%', margin: 'auto'}}>
       <div >
+	  <h1  className="con">"  FAQ  "</h1> 
 		  <div class="intro-colapse" style={{ paddingBottom: '20px'}}>
 		</div>
 
