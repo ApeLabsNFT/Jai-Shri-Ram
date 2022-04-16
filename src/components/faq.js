@@ -2,12 +2,11 @@ import React from 'react';
 import './faq.css';
 
 function FAQ() {
-  return (
+  return (<><h1  className="con">"  FAQ  "</h1> 
 	  <div className='faq-container' style={{ display: 'flex'}}>
 		  <div style={{color: 'white', paddingTop: '20px',  width: '70%', margin: 'auto'}}>
       <div >
 		  <div class="intro-colapse" style={{ paddingBottom: '20px'}}>
-			<span class="caption primary-medium-color">check our faq</span>
 		</div>
 
 	<details class="details-comp">
@@ -70,7 +69,7 @@ function FAQ() {
 	</details>
 	  </div>
 	  </div>
-	  </div>
+	  </div></>
 );
 }
 export default FAQ;

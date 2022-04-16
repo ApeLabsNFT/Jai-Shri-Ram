@@ -22,9 +22,14 @@ export default function SlideShow() {
         
         return () => clearInterval(intervalId);
     }, [currentIndex])
-  return (
-      <div className="slide">
-           <img className="glitch" src={images[currentIndex]} />
-      </div>
+  return (<div class="slide">
+           <div class="glitch2">
+  <div class="glitch__item"><img src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
+</div>
+</div>
   )
 }

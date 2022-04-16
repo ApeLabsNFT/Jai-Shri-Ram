@@ -14,6 +14,7 @@
 	/* flex-direction: column; */
     /* float: none; */
 	background: transparent;
+	background-blend-mode: darken;
 	/* background-size: 100% 100%; */
 	/* background-attachment: fixed; */
 	
@@ -83,9 +84,7 @@
 	width: 100%;
 	height: auto;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
 }
 
 .details-comp {
@@ -96,8 +95,8 @@
 	margin-bottom: 32px;
 	position: relative;
 	left: 0px;;
-	
-	background:rgba(255, 255, 255, 0.2);
+	border: 3px solid #ff6000;
+	background:rgba(255,255, 255, 0.1);
 	filter: drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.04));
 	-webkit-filter: drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.04));
 	-moz-filter: drop-shadow(7px 9px 5px rgba(0, 0, 0, 0.04));
@@ -160,3 +159,54 @@
 		transform: translatey(0);
 	}
 }
+
+
+.con {
+	font-size: 10rem;
+	margin-left: 10%;
+	font-weight: 900;
+	color: #8d837e;
+	
+	--x-offset: -0.0625em;
+	--y-offset: 0.0625em;
+	--stroke: 0.025em;
+	--background-color: rgba(0, 0, 0, 0.651);
+	--stroke-color: #8d837e86;
+	
+	text-shadow: 
+	  
+	  var(--x-offset)
+	  var(--y-offset)
+	  0px
+	  var(--background-color), 
+	  
+	  calc( var(--x-offset) - var(--stroke) )
+	  calc( var(--y-offset) + var(--stroke) )
+	  0px
+	  var(--stroke-color);
+	
+  }
+  /* for browsers that support spread, added in
+  https://drafts.csswg.org/css-text-decor-4/#text-shadow-property
+  currently: none browsers! none of them!
+  I can't even find a test: 
+  https://wpt.fyi/results/css/css-text-decor */
+  @supports ( text-shadow: 1px 1px 1px 1px black ) {
+	.con {
+	  text-shadow:
+		
+		var(--x-offset)
+		var(--y-offset)
+		0px
+		0px
+		var(--background-color), 
+		
+		var(--x-offset) 
+		var(--y-offset)
+		var(--stroke)
+		0px
+		var(--stroke-color);
+	  
+	}
+  }
+  
