@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
 .Box{
   border-radius: 40px;
   border: 0.2px solid rgb(255, 255, 255);
@@ -30,15 +31,17 @@ margin: 0 auto;
 /* background: red; */}
 .Column
 {
-  border-radius: 40px;
-  padding:2%;
+
   display: flex;
   flex-direction: column;
   text-align: left;
   margin-left: 60px;
-  background-color: rgba(0,0,0,0.7);
+  
 }
 .Row{
+  border-radius: 40px;
+  background-color: rgba(0,0,0,0.7);
+  padding:2%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
   grid-gap: 20px;
@@ -46,7 +49,9 @@ margin: 0 auto;
 }
 .FooterLink{
   color: white;
+  font-family: 'Kodchasan', sans-serif;
   text-decoration: solid;
+  text-align: center;
   text-shadow: #ff6000;
   margin-bottom: 20px;
   font-size: 1.2em;
@@ -54,11 +59,21 @@ margin: 0 auto;
   padding: 2px;
 }
 .FooterLink:hover{
-  text-shadow: ;
+  border-radius: 40px;
+  transform: scale(1.1);
+  text-shadow: 0px 0px 30px rgb(255, 255, 255);
 }
 
 .Heading{
-  font-size: 24px;
+  border-image: linear-gradient(to right, #743ad5 0%, #ff6600 100%);
+  background-color: #FFE53B;
+background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+text-transform: uppercase;
+font-family: 'Kodchasan', sans-serif;
+
+  border-radius: 40px;
+  text-align: center;
+  font-size: 1em;
   color: #fff;
   margin-bottom: 40px;
   font-weight: bold;
