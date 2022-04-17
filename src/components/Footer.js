@@ -10,23 +10,13 @@ return (
 	</h1>
 	<div className="Container">
 		<div className="Row">
-		<div className="Column">
-			<div className="Heading">About Us</div>
-			<div className="FooterLink" href="#">Aim</div>
-			<div className="FooterLink" href="#">Vision</div>
-			<div className="FooterLink" href="#">Testimonials</div>
-		</div>
+
 		<div className="Column">
 			<div className="Heading">Services</div>
 			<div className="FooterLink" href="#">Coding</div>
 			
 		</div>
-		<div className="Column">
-			<div className="Heading">Contact Us</div>
-			<div className="FooterLink" href="#">Email</div>
-      <div className="FooterLink" href="#">Contact No.</div>
-      <div className="FooterLink" href="#">Whatsapp</div>
-		</div>
+	
     <div className="Column">
 			<div className="Heading">Social Media</div>
 			<div className="FooterLink" href="#">
@@ -36,21 +26,21 @@ return (
 				</span>
 			</i>
 			</div>
-			<div className="FooterLink" href="#">
+			<div className="FooterLink" href="https://www.instagram.com/jaishriramnft">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
 				</span>
 			</i>
 			</div>
-			<div className="FooterLink" href="#">
+			<div className="FooterLink" href="https://twitter.com/JaiShriRamNFT">
 			<i className="fab fa-twitter">
 				<span style={{ marginLeft: "10px" }}>
 				Twitter
 				</span>
 			</i>
 			</div>
-			<div className="FooterLink" href="#">
+			<div className="FooterLink" href="https://www.facebook.com/people/Jai-Shri-Ram-Nft/100080178372435/">
 			<i className="fab fa-youtube">
 				<span style={{ marginLeft: "10px" }}>
 				Youtube

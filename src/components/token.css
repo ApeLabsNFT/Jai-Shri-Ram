@@ -3,8 +3,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 50vh;
+  width: 50%;
+  height: 50%;
+ 
 }
 :root {
 	 --color-text: #fff;
@@ -32,14 +33,14 @@
 
 
  .glitch2 {
-	 
-	 width: 100%;
+	 width: 30%;
 	 height: 100%;
 	 position: absolute;
 	 overflow: hidden;
 }
  .glitch2 .glitch__item {
 	display: flex;
+	transform: scale(1.4);
 	justify-content: center;
 	align-items: center;
 	 height: 100%;

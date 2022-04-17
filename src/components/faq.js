@@ -12,61 +12,67 @@ function FAQ() {
 
 	<details class="details-comp">
 		<summary class="summary-colapse">
-        What makes Ram avatars unique and investor friendly?
+		Who has created Jai Shri Ram NFT?
 		</summary>
-		<p> The heritage and moral significance of Shri Ram himself and his devotion to do the right thing inspired the team to create this utility based and visually appealing NFT collection, which allows investors the trust in our economics mechanism as well as inginutive design possibilities that appeal to the masses.</p>
+		<p> The Jai Shri ram project is done by a Maharashtra-based software related technological company called Rachayata Tech Pvt Ltd. A renowned name in the silicon city of India, Rachayata is your one-stop solution for all software related services. And now, they are working their way towards Web 3.0.</p>
 	</details>
 
 	<details class="details-comp">
 		<summary class="summary-colapse">
-        What blockchain is this project using?
+        When is Jai Shri Ram NFT being released?
 		</summary>
-		<p> This project will be on Solana blockchain, NFTs be minted using Phantom, Solflare etc.</p>
+		<p> The first collection of 1100 NFTs is scheduled to be released on 23 April 2022. We are planning another launch with a higher number of NFTs soon.</p>
 	</details>
 
 	<details class="details-comp">
+		<summary class="summary-colapse">
+        Why is Jai Shri Ram NFT worth investing?
+		</summary>
+		<p> Jai Shri Ram NFTs are getting released on Solana which is great with their prices, security and speed. There are only 1100 NFTs at great pricing compared to other chains. They will also donate a share of their profits to charity. The best part? They are made in India. If you are looking for a crypto investment that helps others and yourself, you should invest in Jai Shri Ram NFTs.</p>
+	</details>
+
+	<details class="details-comp">
+		<summary class="summary-colapse">
+		Is the market of Jai Shri Ram NFT limited to India?
+		</summary>
+		<p> The Jai Shri Ram project is made in India. However, it exists on the Solana blockchain that makes it available globally. Agreed that India has a vast majority of Lord Ram worshippers, however, the entire crypto market is looking for a good investment that helps others as well.</p>
+	</details>
+
+	<details class="details-comp">
+		<summary class="summary-colapse">
+        Why was Jai Shri Ram NFT created?
+		</summary>
+		<p>This is an initiative by our company to promote the importance of Vedic literature in modern India. We have noticed that there is no active link between Lord Ram’s heritage and today’s booming technology. That is why we have decided to take it upon us to form the necessary bridge. As the world goes digital, Jai Shri Ram NFT is our way of promoting our Vedic heritage on a global level.
+</p>
+	</details>
+    <details class="details-comp">
+		<summary class="summary-colapse">
+        How will buying Jai Shri Ram NFT help Ram Heritage?
+		</summary>
+		<p> Most people think that Vedic literature is obsolete and has no place in modern and technologically-advancing India. That is the myth Jai Shri Ram project wants to break. It wants to bridge the gap between the vedic knowledge of ancient India and technological expertise of modern India. They have talked more about this on their social media channels.</p>
+	</details>
+    <details class="details-comp">
+		<summary class="summary-colapse">
+        How many and what kind of NFTs will be launched under the Jai Shri Ram project?
+		</summary>
+		<p>Rachayata Tech has decided to launch a set of 1100 digital art NFTs on the Solana blockchain in April 2022. These NFTs are depictions of Lord Rama nocking his bow. The NFTs are all unique in terms of Lord Ram’s attire, crown and bow. Additionally, they will have several backdrops to choose from. This is an initiative by our company to promote the importance of Vedic literature in modern India. We have noticed that there is no active link between Lord Ram’s heritage and today’s booming technology. That is why we have decided to take it upon us to form the necessary bridge. 
+</p>
+	</details>
+    <details class="details-comp">
+		<summary class="summary-colapse">
+        Why is Jai Shri Ram NFT on Solana?
+		</summary>
+		<p>Recently, Solana has stated, “India is the fastest growing global open-source contribution.” In fact, Temer Menteshashvii also added that India is soon to become the hub for developing crypto native platforms. 
+Hence, being a company that wants to bridge the gap between wishful thinking and actual implementation, we decided that the Jai Shri Ram project has to be on Solana. Not only is it the world’s fastest blockchain platform, it offers a unique perspective on solving the blockchain trilemma. Additionally, Solana is an extremely secure platform and budget-friendly for applications and users.
+As the world goes digital, Jai Shri Ram NFT is our way of promoting our Vedic heritage on a global level.And, what better way to introduce our project than to introduce it on a platform that values the talent and potential India has.
+</p>
+	</details>
+    <details class="details-comp">
 		<summary class="summary-colapse">
         What is “Mandir of Quant”?
 		</summary>
-		<p> “Mandir of Quant” or the temple of quant will be our monthly report published to all holders at the end of every month. This report will have insights on latest profitable development useful for our holders to make gains according to their appetite based on the data of on-chain analysis.</p>
-	</details>
-
-	<details class="details-comp">
-		<summary class="summary-colapse">
-        How does data play a significant role in investing?
-		</summary>
-		<p> Big data companies are wealthier than oil corporations and on-chain data analysis allows us to refine our entries in the market as well as WEB3 deal in anonymity and security. We aim to make it a bit simpler to understand and easy to use.</p>
-	</details>
-
-	<details class="details-comp">
-		<summary class="summary-colapse">
-        Launching a coin anytime soon?
-		</summary>
-		<p> No, we will wait for a 50%-75% sell-out to form a Mandir DAO where the government coin will be Mandir coin, but for now, we will wait until the team feels that the investors are confident enough to support the decision.</p>
-	</details>
-    <details class="details-comp">
-		<summary class="summary-colapse">
-        Are the creators doxxed? What is the team background?
-		</summary>
-		<p>  Team doxx links</p>
-	</details>
-    <details class="details-comp">
-		<summary class="summary-colapse">
-        Can Jai Shri Ram be the next CryptoPunk or Bored Ape?
-		</summary>
-		<p>We plan to host spiritual events and put out a merchandise line after 50% is sold out, and we aim to grow bigger than these 2 as they are not on top now, proving that NFTs are built for utility.  </p>
-	</details>
-    <details class="details-comp">
-		<summary class="summary-colapse">
-        What kind of development are we planning to assist in Ram Mandir?
-		</summary>
-		<p>If Ram Mandir Trust like our plan to support a better visual appeal idea, we will have digital screens to promote NFTs and a cleaning service kiosk for the temple.</p>
-	</details>
-    <details class="details-comp">
-		<summary class="summary-colapse">
-        Will you cover the whole Ramayana in Phase 2?
-		</summary>
-		<p>Our big picture idea is to make a “Witcher 3” like Ramayana game and animated series for the next generation of India, as it carries our heritage in the most secure way possible as well as show our creative independence as a society.</p>
+		<p>“Mandir of Quant” or the temple of quant will be our monthly report published to all holders at the end of every month. This report will have insights on latest profitable development which will enable our holders to make gains according to their will based on the data of the on-chain analysis.
+</p>
 	</details>
 	  </div>
 	  </div>

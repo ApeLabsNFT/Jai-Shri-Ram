@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
-
+@import url('http://fonts.cdnfonts.com/css/akira-expanded');
   body {
     font-family: 'Kodchasan', sans-serif;
   }
@@ -91,5 +91,21 @@ box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
       display: block;
       margin-bottom: 20px;
     }
+  }
+  .aimpara{
+    
+    color:#8d837e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    font-family: 'Akira Expanded', sans-serif;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 80px;
   }
   
