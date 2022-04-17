@@ -1,0 +1,81 @@
+.mintco{
+    padding: 5%;
+    display: flex;
+align-items: center;
+flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -5%;
+    background-image: url("../assets/MINT\ bg.png");
+    background-repeat: repeat;
+}
+.mintcon {
+    margin-left: -70%;
+	font-size: 10rem;
+	text-align: left;
+	font-weight: 900;
+	color: white;
+	
+	--x-offset: -0.0625em;
+	--y-offset: 0.0625em;
+	--stroke: 0.025em;
+	--background-color: rgba(0, 0, 0, 0.651);
+	--stroke-color: #8d837e86;
+	
+	text-shadow: 
+	  
+	  var(--x-offset)
+	  var(--y-offset)
+	  0px
+	  var(--background-color), 
+	  
+	  calc( var(--x-offset) - var(--stroke) )
+	  calc( var(--y-offset) + var(--stroke) )
+	  0px
+	  var(--stroke-color);
+	
+  }
+  /* for browsers that support spread, added in
+  https://drafts.csswg.org/css-text-decor-4/#text-shadow-property
+  currently: none browsers! none of them!
+  I can't even find a test: 
+  https://wpt.fyi/results/css/css-text-decor */
+  @supports ( text-shadow: 1px 1px 1px 1px black ) {
+	.mintcon {
+	  text-shadow:
+		
+		var(--x-offset)
+		var(--y-offset)
+		0px
+		0px
+		var(--background-color), 
+		
+		var(--x-offset) 
+		var(--y-offset)
+		var(--stroke)
+		0px
+		var(--stroke-color);
+	  
+	}
+  }
+  .mintimage{
+      width: 400px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border:10px solid #471519;
+      background-color: #2e1213;
+  }
+
+  .mintbutton{
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 2em;
+    color:#ea0c1e;
+      border: none;
+      width: 300px;
+      height: 60px;
+      background-color: #471519;
+  }
+  
