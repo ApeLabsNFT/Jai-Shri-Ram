@@ -35,6 +35,9 @@ setloaded(true)
   <div class="circle circle-3"></div>
   <div class="circle circle-4"></div>
   <div class="circle circle-5"></div>
+  <div class="circle circle-6"></div>
+  <div class="circle circle-7"></div>
+  <div class="circle circle-8"></div>
   </div>
   
   </td>     <td>     <img className="avatar" src={Raja}></img> </td></tr>  </table>
