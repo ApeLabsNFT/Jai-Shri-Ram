@@ -1,29 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
-import Root from './components/pages/Root';
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
+  Route,  
 } from "react-router-dom";
 import Services from './components/pages/Services';
 import Home from './components/pages/home';
 import Faq from './components/pages/faq';
+import Loader from './components/loader';
+
 
 function App() {
   return (
     <>
-    
-      <Router>
+    <Router> 
       <Navbar/>
         <Routes>
-          <Route exact path='/' element={<Root />} />
+        <Route exact path='/' element={<Loader/>} />
           <Route exact path='/services' element={<Services/>} />
           <Route path='/FAQ' element={<Faq/>} />
           <Route exact path='/home' element={<Home/>} />
         </Routes>
       </Router>
+      
     </>
   );
 }
