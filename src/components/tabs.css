@@ -10,17 +10,18 @@
 	--surface-color: rgba(0, 0, 0, 0.9);
 	--curve: 40;
   }  
-  .cards {
+  .cards { 
+	background-color: black;
+	background-repeat: repeat;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	gap: 2rem;
 	margin: 4rem 5vw;
-	padding: 0;
+	padding: 1%;
 	list-style-type: none;
   }
   
   .card {
-	background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f2cb5f, #abf25f, #5ff281, #5ff2f0);
 	position: relative;
 	
 	display: block;

@@ -1,0 +1,23 @@
+@import url('http://fonts.cdnfonts.com/css/akira-expanded');
+.paraco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    min-width: 100vw;
+    min-height: 70vh;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+
+    
+}
+
+.paragraph{
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 10%;
+    font-family: 'Kodchasan', sans-serif;
+
+}

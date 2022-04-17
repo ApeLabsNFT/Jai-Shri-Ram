@@ -14,11 +14,14 @@
   
   /* Remove extra left and right margins, due to padding in columns */
   .row {
-  margin: 5%;
+    
+    background-repeat: repeat;
+  
   }
   
   /* Clear floats after the columns */
   .row:after {
+    padding:2%;
     content: "";
     display: table;
     clear: both;
@@ -93,19 +96,21 @@ box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
     }
   }
   .aimpara{
-    
-    color:#8d837e;
+    border: 2px solid white;
+    color:#ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-transform: uppercase;
     font-size: 2em;
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
-    font-family: 'Akira Expanded', sans-serif;
     text-align: center;
-    background-color: rgba(0,0,0,0.5);
+    
     border-radius: 80px;
+  }
+  .aim{
+    padding-bottom: 5%;
+    background-image: url("../assets/Asset 38.png");
   }
   

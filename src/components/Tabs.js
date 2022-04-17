@@ -10,8 +10,10 @@ import NFT342 from "../assets/342.png"
 import NFT396 from "../assets/396.png"
 function Tabs(){
   return(<>
+  
   <h1 class="addition">LATEST ADDITIONS</h1>
   <ul class="cards">
+  
   <li>
     <span class="card">
       <img src={NFT93} class="card__image" alt="" />

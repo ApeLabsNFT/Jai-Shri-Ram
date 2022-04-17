@@ -5,12 +5,13 @@ function Cards() {
   return (<>
     <div className='aim'>
       <h1 className="addition">OUR AIM</h1>
-      <span className='aimpara'>" To bridge the gap between ancient India’s Vedic knowledge and modern India’s technological prowess,
-To ensure that the youth realises its role in making the world a better place "
+      <span className='aimpara'>To bridge the gap between ancient India’s Vedic knowledge and modern India’s technological prowess,<br></br>
+to ensure that the youth realises its role in making the world a better place
 </span>
     </div>
-    <h1 className="addition">INSIGHTS</h1>
+    
     <div class="row">
+    <h1 className="addition">INSIGHTS</h1>
     <div class="column">
       <div class="card2">
         <h1>Total Supply</h1>

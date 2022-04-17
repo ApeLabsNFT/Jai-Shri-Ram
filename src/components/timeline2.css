@@ -33,11 +33,22 @@
 		transform:         translateY(-15px)
 	}
 }
+timeline{ display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	background-image: url("../assets/Asset 38.png");}
+	
  main {
+
+	
+	background-repeat: repeat;
+	background-size: contain;
 	 min-width: 20%;
-	 max-width: 40%;
+	 max-width: 90%;
 	 margin: auto;
-	 overflow-x: none;
+	 
+
      
 }
 .roadhead{

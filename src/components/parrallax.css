@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
 .containerp{
   display: flex;
-  flex-direction: row;
-  height: 100%;
-  width:100%;
-  justify-content:space-evenly;
+  height: 100vh;
+  width:100vw;
+justify-content: center;
+flex-direction: row;
   align-items:center;
-
-  background: transparent;
-  overflow:hidden;
   position: relative;
   animation: bounce 1s 8s linear;
+  background-image: url("../assets/Asset 38.png");
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .slide-in-blurred-top {
@@ -153,7 +153,7 @@
 }
 .seta{
   position:absolute;
-  margin-top:40%;
+  margin-top:35%;
   width:5%;
   height: 10%;
   background: url('../assets/arrow.png');
@@ -171,9 +171,11 @@
 }
 
 .texts{
+  padding: 5%;
+  background-color: rgb(12, 0, 0);
   padding-left: 3%;
   width: 100%;
-  max-height: 100vh;
+  max-height: 100%;
   letter-spacing: .1em;
   margin-bottom: 5%;
 }
@@ -182,7 +184,7 @@
   text-transform: uppercase;
   font-family: 'Kodchasan', sans-serif;
   color: #ff6600;
-    font-size: 4em;   
+    font-size: 3em;   
 }
 .rellaxp{
   padding-top: 5%;
@@ -194,10 +196,6 @@
 }
 
 
-.box{
-  
-  background: #17202A;
-}
 
 .box a{
   color: #fff;
@@ -213,4 +211,8 @@
   .seta{
     
   }
+}
+body{
+  background-color: black
+  ;
 }

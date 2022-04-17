@@ -1,7 +1,8 @@
 import React from "react";
 import "./timeline2.css"
 function Timeline2(){
-    return(<div id="slide">
+    return(<timeline>
+    <div id="slide">
     <h1 class="addition">ROADMAP</h1>
     <main>
         <p class="newtime slide-in-left1">
@@ -23,6 +24,6 @@ fund.</p>
 <br></br>
 Details will follow soon.
 </p>
-      </main></div>)
+      </main></div></timeline>)
 }
 export default Timeline2; 
