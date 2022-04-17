@@ -69,14 +69,13 @@
      }
 }
 .Loading{
-    
+
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .progress {
-    
     border-radius: 100px;
     align-items: center;
     position: relative;
@@ -89,7 +88,8 @@
     animation: load 3s normal forwards;
     box-shadow: 0 10px 40px -10px #fff;
     border-radius: 100px;
-    background: #ff6000;
+    background: #ffffff;
+    border: 2px solid white;
     height: 30px;
     width: 0;
   }
