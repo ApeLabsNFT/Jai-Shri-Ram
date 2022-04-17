@@ -24,11 +24,11 @@
 	 --blend-mode-3: none;
 	 --blend-mode-4: none;
 	 --blend-mode-5: overlay;
-	 --blend-color-1: transparent;
-	 --blend-color-2: transparent;
-	 --blend-color-3: transparent;
-	 --blend-color-4: transparent;
-	 --blend-color-5: #af4949;
+	 --blend-color-1: rgba(128, 0, 128, 0.5);
+	 --blend-color-2: red;
+	 --blend-color-3: rgba(81, 81, 216, 0.288);
+	 --blend-color-4: rgba(238, 130, 238, 0.178);
+	 --blend-color-5: rgba(216, 34, 140, 0.425);
 }
 
 
@@ -116,7 +116,7 @@
 }
  @keyframes glitch-anim {
 	 0% {
-		 clip: rect(32px, 9999px, 111px, 0);
+		 clip: rect(90px, 9999px, 111px, 0);
 	}
 	 5% {
 		 clip: rect(38px, 9999px, 139px, 0);

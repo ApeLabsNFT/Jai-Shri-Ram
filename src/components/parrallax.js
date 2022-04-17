@@ -43,11 +43,11 @@ In fact, Ram Rajya is what we call a truly democratic society where every citize
     </div>
     <div class="slide">
     <div class="glitch2">
-  <div class="glitch__item"><img src={images[currentIndex]} /></div>
-  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
-  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
-  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
-  <div class="glitch__item">  <img src={images[currentIndex]} /></div>
+  <div class="glitch__item"><img style={{opacity:1}} src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img style={{opacity:0.3}}src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img  style={{opacity:0.5}} src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img style={{opacity:0.8}} src={images[currentIndex]} /></div>
+  <div class="glitch__item">  <img style={{opacity:0.9}} src={images[currentIndex]} /></div>
 </div>
     </div>
   </div>
