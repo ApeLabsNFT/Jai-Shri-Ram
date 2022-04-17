@@ -12,9 +12,9 @@ setload(false)
 setloaded(true)
     },4800)
     return(<>{showloaded &&
-    <div className="loaded slide-in-blurred-top">
-        <img className="avatar2" src={Loaded}></img>
-        <span className="Started" onClick={()=>{setloaded(false)}}><Link to="/home" style={{textDecoration:"none",color:"white"}}>GET STARTED
+    <div className="loaded ">
+        <img className="avatar2 slide-in-blurred-top" src={Loaded}></img>
+        <span className="Started slide-in-blurred-top" onClick={()=>{setloaded(false)}}><Link to="/home" style={{textDecoration:"none",color:"white"}}>GET STARTED
         </Link></span>
     </div>
 
