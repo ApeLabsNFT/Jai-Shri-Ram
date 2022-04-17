@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 40%;
   height: 50%;
  
 }
@@ -33,20 +33,18 @@
 
 
  .glitch2 {
-	 width: 30%;
+	 width: 50%;
 	 height: 100%;
 	 position: absolute;
 	 overflow: hidden;
 }
  .glitch2 .glitch__item {
 	display: flex;
-	transform: scale(1.2);
+	transform: scale(1.4);
 	justify-content: center;
 	align-items: center;
 	 height: 100%;
 	 width: 100%;
-	 top: 0;
-	 left: 0;
 	 position: absolute;
 }
  .glitch2 .glitch__item:nth-child(n+2) {
