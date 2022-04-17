@@ -19,33 +19,37 @@ return (
 	
     <div className="Column">
 			<div className="Heading">Social Media</div>
-			<div className="FooterLink" href="#">
+			<div className="FooterLink"><a  target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"white"}} href="https://www.facebook.com/people/Jai-Shri-Ram-Nft/100080178372435/">
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
 				Facebook
 				</span>
 			</i>
+			</a>
 			</div>
-			<div className="FooterLink" href="https://www.instagram.com/jaishriramnft">
+			<div className="FooterLink"><a target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"white"}}href="https://www.instagram.com/jaishriramnft">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
 				</span>
 			</i>
+			</a>
 			</div>
-			<div className="FooterLink" href="https://twitter.com/JaiShriRamNFT">
+			<div className="FooterLink"><a target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"white"}} href="https://twitter.com/JaiShriRamNFT">
 			<i className="fab fa-twitter">
 				<span style={{ marginLeft: "10px" }}>
 				Twitter
 				</span>
 			</i>
+			</a>
 			</div>
-			<div className="FooterLink" href="https://www.facebook.com/people/Jai-Shri-Ram-Nft/100080178372435/">
+			<div className="FooterLink" ><a  target="_blank" rel="noopener noreferrer" style={{textDecoration:"none",color:"white"}} href="https://www.facebook.com/people/Jai-Shri-Ram-Nft/100080178372435/">
 			<i className="fab fa-youtube">
 				<span style={{ marginLeft: "10px" }}>
 				Youtube
 				</span>
 			</i>
+			</a>
 			</div>
 		</div>
 		</div>
