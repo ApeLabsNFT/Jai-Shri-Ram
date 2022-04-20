@@ -17,10 +17,10 @@ return (
 			<div class="icons">
 			<span className="Followus">Follow us on :</span>
 			<div className="media-icons">
-				<a href="#"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
-				<a href="#"><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
-				<a href="#"><img src="https://img.icons8.com/fluency/48/000000/twitter-circled.png"/></a>
-				<a href="#"><img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"/></a>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100080178372435"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
+				<a target="_blank" rel="noopener noreferrer" href="https://instagram.com/jaishriramnft?igshid=YmMyMTA2M2Y="><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
+				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/JaiShriRamNFT?t=qB-JZ5gYPqTcEldaopxG8g&s=09"><img src="https://img.icons8.com/fluency/48/000000/twitter-circled.png"/></a>
+				<a  href="https://www.facebook.com/profile.php?id=100080178372435"><img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png"/></a>
 			</div>
 
 			</div>
