@@ -230,9 +230,5 @@ body{
     width: 100vw;
     height: 100vw;
   }
-  .slide{
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-  }
+
 }

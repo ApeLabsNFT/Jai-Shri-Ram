@@ -74,6 +74,22 @@
 	 background-blend-mode: var(--blend-mode-5);
 	 animation-name: glitch-anim-flash;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 300px)  {
+	.slide{
+		flex-direction: column;
+		width: 100vw;
+		height: 100vw;
+	}
+
+	.glitch2 {
+		width:100%;
+	}
+	.glitch2 .glitch__item {
+		transform: scale(1.0);
+	}
+
+}
  @keyframes glitch-anim-flash {
 	 0%, 5% {
 		 opacity: 0.2;
