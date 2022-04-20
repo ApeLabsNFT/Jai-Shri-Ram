@@ -1,0 +1,44 @@
+.vod {
+    align-content:center;
+    display:flex;
+    width:100vw;
+    height:90vh;
+flex-direction: row;
+    justify-content:center;
+  }
+  
+  /* Make the image responsive */
+
+  /* Style the button and place it in the middle of the container/image */
+.gettohome {
+    display: none;
+    position: absolute;
+    border-radius: 80px;
+
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #00000021;
+    border-radius: 200px;
+    color: white;
+    font-size: 1.4rem;
+    width: 300px;
+    padding: 1%;
+    text-align: center;
+    
+    cursor: pointer;
+    
+  }
+  
+  .vod:hover >.gettohome {
+    display: flex;
+      text-align: center;
+      justify-content: center;
+  }
+  @media screen and (max-width: 1200px) and (min-width: 300px)  {
+      .gettohome{
+
+margin-top: -10%;        display: block;
+
+      }}

@@ -10,6 +10,7 @@ import MINT from './components/pages/MINT.js';
 import Home from './components/pages/home';
 import Faq from './components/pages/faq';
 import Loader from './components/loader';
+import Loading from './components/loading';
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <Router> 
       <Navbar/>
         <Routes>
-        <Route exact path='/' element={<Loader/>} />
+        <Route exact path='/' element={<Loading/>} />
           <Route exact path='/MINT' element={<MINT/>} />
           <Route path='/FAQ' element={<Faq/>} />
           <Route exact path='/home' element={<Home/>} />
