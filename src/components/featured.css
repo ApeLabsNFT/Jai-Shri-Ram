@@ -25,3 +25,8 @@
     cursor: pointer;
     box-shadow: 0px 0px 30px 2px rgb(242, 237, 233);
 }
+@media screen and (max-width: 1200px) and (min-width: 300px)  {
+    .feat{
+flex-direction: column;
+    }
+}

@@ -28,10 +28,10 @@ return (
 			</div>
 			<div className="right-side">
 				<div className="links">
-				<a href="#"><Link to="/FAQ">FAQ</Link></a>
-				<a href="#"><Link to="/MINT">MINT</Link></a>
-				<a href="#"><Link to="/MINT"></Link>Terms & Conditions</a>
-				<a href="#">Contact us</a>
+				<Link to="/FAQ">FAQ</Link>
+				<Link to="/MINT">MINT</Link>
+				<Link to="/MINT">Terms & Conditions</Link>
+				<Link to="/MINT">Contact us</Link>
 			</div>
 
 			<div class="devel"><span>

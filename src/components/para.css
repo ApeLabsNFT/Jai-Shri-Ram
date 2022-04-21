@@ -30,7 +30,7 @@
 }
 @media screen and (max-width: 1200px) and (min-width: 300px)  {
     .paragraph{
-        font-size: 0.8rem;
+        font-size: 0.4rem;
     }
     .paraco{
         height: 50vw;
