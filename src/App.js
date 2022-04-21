@@ -12,6 +12,7 @@ import Faq from './components/pages/faq';
 import Loading from './components/loading';
 import Contact from './components/contactus';
 
+
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
           <Route path='/FAQ' element={<Faq/>} />
           <Route exact path='/home' element={<Home/>} />
         </Routes>
+        
       </Router>
       
     </>
