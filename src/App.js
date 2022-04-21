@@ -10,7 +10,7 @@ import MINT from './components/pages/MINT.js';
 import Home from './components/pages/home';
 import Faq from './components/pages/faq';
 import Loading from './components/loading';
-
+import Contact from './components/contactus';
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
       <Navbar/>
         <Routes>
         <Route exact path='/' element={<Loading/>} />
+        <Route exact path='/Contact' element={<Contact/>} />
           <Route exact path='/MINT' element={<MINT/>} />
           <Route path='/FAQ' element={<Faq/>} />
           <Route exact path='/home' element={<Home/>} />

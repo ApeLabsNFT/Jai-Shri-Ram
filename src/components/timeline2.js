@@ -12,7 +12,7 @@ function Timeline2(){
             <br></br>
             Launch of the Jai Shri Ram Project website
         </p>
-        <p class="newtime slide-in-right1"><span class="roadhead">17th April 2022 - 22th April 2022</span><br></br>The MINT GOES LIVE</p>
+        <p class="newtime slide-in-right1"><span class="roadhead">17th April 2022 - 23th April 2022</span><br></br>The MINT GOES LIVE<br></br>Premint is live.</p>
         <p class="newtime slide-in-left2"><span class="roadhead">25% SALE</span><br></br>MANDIR OF QUANT- OUR MONTHLY DATA REPORT<br></br>The first edition of Mandir of Quant goes out to Jai Shri Ram NFT holders to help them make better investments by following the investments of big players in the game.</p>
         <p class="newtime slide-in-right2"><span class="roadhead">50% SALE</span><br></br>
         RACHAYATA MARKETPLACE GETS LAUNCHED <br></br>

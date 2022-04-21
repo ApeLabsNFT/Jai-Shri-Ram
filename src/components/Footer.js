@@ -31,7 +31,7 @@ return (
 				<Link to="/FAQ">FAQ</Link>
 				<Link to="/MINT">MINT</Link>
 				<Link to="/MINT">Terms & Conditions</Link>
-				<Link to="/MINT">Contact us</Link>
+				<Link to="/Contact">Contact us</Link>
 			</div>
 
 			<div class="devel"><span>
