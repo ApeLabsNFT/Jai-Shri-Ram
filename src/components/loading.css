@@ -18,10 +18,10 @@ flex-direction: row;
     border: none;
   }
 .gettohome {
-    display: none;
+    display: block;
     position: absolute;
     border-radius: 80px;
-
+opacity: 10%;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -42,6 +42,9 @@ flex-direction: row;
     display: flex;
       text-align: center;
       justify-content: center;
+  }
+  .gettohome:hover{
+    opacity:100%;
   }
   @media screen and (max-width: 500px) and (min-width: 300px)  {
       .gettohome{
