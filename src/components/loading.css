@@ -22,7 +22,7 @@ flex-direction: row;
     position: absolute;
     border-radius: 80px;
 
-    top: 90%;
+    top: 94%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -48,7 +48,8 @@ flex-direction: row;
   }
   @media screen and (max-width: 500px) and (min-width: 300px)  {
       .gettohome{
- display: block;
+
+margin-top: -20%;        display: block;
 
       }
       .control{
