@@ -6,7 +6,7 @@ flex-direction: column;
     justify-content: space-between;
     width: 100vw;
     height: 100vh;
-    margin-top: -5%;
+    
     background-image: url("../assets/MINT\ bg.png");
     background-repeat: repeat;
 }
@@ -77,6 +77,14 @@ flex-direction: column;
       border: none;
       width: 300px;
       height: 60px;
+      margin: auto;
       background-color: #471519;
   }
   
+  @media screen and (max-width: 1200px) and (min-width: 300px)  {
+    .mintcon{
+      margin:auto;
+      font-size: 3em;
+    }
+    .mintco{}
+  }
