@@ -1,6 +1,6 @@
 import React, { useEffect,useState} from "react";
 import { Link } from "react-router-dom";
-import Video from "../assets/loading2.mp4"
+import Video from "../assets/load2.mp4"
 import "./loading.css"
 
 export default function Loading() {
