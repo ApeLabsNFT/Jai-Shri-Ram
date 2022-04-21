@@ -6,6 +6,7 @@ import Tabs from '../Tabs';
 import Footer from '../Footer';
 import Parrallax from '../parrallax';
 import SlideShow from '../para';
+import Featured from '../featured';
 function Home()
 
 {
@@ -17,7 +18,7 @@ function Home()
     <Cards/>
     <Timeline2/>
     <Tabs/>
-
+<Featured/>
     <Footer/>
 
     </>
