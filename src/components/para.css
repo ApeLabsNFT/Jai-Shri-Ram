@@ -22,9 +22,15 @@
     font-family: 'Kodchasan', sans-serif;
 
 }
+.slideco{
+    background:transparent  ;
+    border: none;
+    cursor: pointer;
+
+}
 @media screen and (max-width: 1200px) and (min-width: 300px)  {
     .paragraph{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .paraco{
         height: 50vw;

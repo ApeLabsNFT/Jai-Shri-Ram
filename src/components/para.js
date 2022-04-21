@@ -8,7 +8,6 @@ const para=["Lord Ram is one of the most widely worshiped deities in the world. 
 
 export default function SlideShow() {
   const [currentIndex, setCurrentIndex] = useState(0);
-
     useEffect(() => {
         const intervalId = setInterval(() => {
             if(currentIndex === para.length - 1) {
@@ -22,7 +21,14 @@ export default function SlideShow() {
         return () => clearInterval(intervalId);
     }, [currentIndex])
   return (<><div className="paraco">
+   <div>
+   <button class="slideco"><img src="https://img.icons8.com/ios-filled/50/ffffff/circled-chevron-left.png"/></button>
+    
+    </div>
   <span className="paragraph" >{para[currentIndex]}</span>
+  <div className="next">
+  <button class="slideco"><img class="slideco" src="https://img.icons8.com/ios-filled/50/ffffff/circled-chevron-right.png"/></button>
+    </div>
   </div>
 </>
   )
