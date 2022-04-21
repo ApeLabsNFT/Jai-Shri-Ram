@@ -6,8 +6,8 @@ flex-direction: column;
     justify-content: space-between;
     width: 100vw;
     height: 100vh;
-    
-    background-image: url("../assets/MINT\ bg.png");
+    background-size: cover;
+    background-image: url("../assets/mintbg.png");
     background-repeat: repeat;
 }
 .mintcon {
@@ -86,5 +86,8 @@ flex-direction: column;
       margin:auto;
       font-size: 3em;
     }
-    .mintco{}
+    .mintimage{
+      width: 90vw;
+      height: 50vh;
+    }
   }

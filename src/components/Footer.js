@@ -8,7 +8,7 @@ return (
 	<footer class="footer-section">
         <div class="footcontainer">
 			<div class="logo-details">
-			<h2 className="hero glitch layers" data-text="JAI SHRI RAM"><span>JAI SHRI RAM</span></h2>
+			<h2 className="hero " data-text="JAI SHRI RAM"><span>JAI SHRI RAM</span></h2>
 			
 			<img className='swastik-img' alt="swastik logo" src={swastik} width="25px" height = "25px" style={{paddingLeft:"2px"}}/>
 				<span class="logo_para">Bridging the gap between Vedic pedagogy & technological prowess of modern India.</span>

@@ -18,6 +18,7 @@ flex-direction: row;
     border: none;
   }
 .gettohome {
+  background-color: #fd5301;
     display: none;
     position: absolute;
     border-radius: 80px;
@@ -26,7 +27,7 @@ flex-direction: row;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #00000021;
+  border: none;
     border-radius: 200px;
     color: white;
     font-size: 1.4rem;
@@ -49,7 +50,7 @@ flex-direction: row;
   @media screen and (max-width: 500px) and (min-width: 300px)  {
       .gettohome{
 
-margin-top: -20%;        display: block;
+margin-top: -2  0%;        display: block;
 
       }
       .control{
