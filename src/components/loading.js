@@ -26,9 +26,6 @@ justifyContent:"center"
            autoplay="true"
            width="90%"
           muted={muted}
-        style={{
-          marginTop:"-10%"
-        }}
         >
       </video>
       <button onClick={handleToggleMute} className="control">{muted &&

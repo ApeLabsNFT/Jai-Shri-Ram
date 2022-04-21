@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css"
 import copyright from "../assets/copyright-16.png"
 import swastik from "../assets/swastik.png"
+import { Link } from "react-router-dom";
 const Footer = () => {
 return (
 	<footer class="footer-section">
@@ -27,9 +28,9 @@ return (
 			</div>
 			<div className="right-side">
 				<div className="links">
-				<a href="#">Terms & Conditions</a>
-				<a href="#">Privacy Policy</a>
-				<a href="#">Copyright clain</a>
+				<a href="#"><Link to="/FAQ">FAQ</Link></a>
+				<a href="#"><Link to="/MINT">MINT</Link></a>
+				<a href="#"><Link to="/MINT"></Link>Terms & Conditions</a>
 				<a href="#">Contact us</a>
 			</div>
 

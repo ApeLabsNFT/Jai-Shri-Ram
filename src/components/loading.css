@@ -18,7 +18,7 @@ flex-direction: row;
     border: none;
   }
 .gettohome {
-    display: block;
+    display: none;
     position: absolute;
     border-radius: 80px;
 
@@ -36,21 +36,19 @@ flex-direction: row;
     
     cursor: pointer;
     
+    
   }
+  
   
   .vod:hover >.gettohome {
     display: flex;
-    opacity: 10%;
+
       text-align: center;
       justify-content: center;
   }
-  .gettohome:hover{
-    opacity:100%;
-  }
   @media screen and (max-width: 500px) and (min-width: 300px)  {
       .gettohome{
-
-margin-top: -10%;        display: block;
+ display: block;
 
       }
       .control{
