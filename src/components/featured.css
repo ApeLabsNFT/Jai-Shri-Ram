@@ -3,23 +3,25 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
-    max-height: 100vh;
-    width: 50vw;
-    background-image: url("../assets/Asset 38.png");
-    background-repeat: repeat;
-    padding: 5%;
-    background-size: contain;
+    flex-direction: row;
+    
+    width: 100vw;
+    
+    
 }
 .feat{
+    padding: 5%;
+    background-image: url("../assets/Asset 38.png");
     display: flex;
+    max-height: 80vh;
+    background-size: contain;
+    background-repeat: repeat;
     justify-content: space-evenly;
     align-items: center;
-    flex-direction: row; 
+    flex-direction: column; 
 }
 .news{
-    margin: 2%;
-    width: 30vw;
+    width: 35vw;
 }
 .news:hover{
     cursor: pointer;
@@ -28,5 +30,8 @@
 @media screen and (max-width: 1200px) and (min-width: 300px)  {
     .feat{
 flex-direction: column;
+    }
+    .mid-day{
+        flex-direction: row;
     }
 }

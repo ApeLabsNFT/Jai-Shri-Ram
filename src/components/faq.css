@@ -206,5 +206,10 @@
 	  
 	}
   }
+  @media screen and (max-width: 1200px) and (min-width: 300px)  {
 
+	.con{
+		font-size: 3rem;
+	}
+  }
   
