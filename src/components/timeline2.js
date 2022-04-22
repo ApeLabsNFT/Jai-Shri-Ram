@@ -2,6 +2,7 @@ import React from "react";
 import "./timeline2.css"
 function Timeline2(){
     return(<timeline>
+        <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
     <div id="slide">
     <h1 class="addition">ROADMAP</h1>
     <main>

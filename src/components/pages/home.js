@@ -12,6 +12,7 @@ function Home()
 {
   return(
     <>
+    <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram</noscript>
     <Parrallax/>
 {/* <Para/> */}
 <SlideShow/>

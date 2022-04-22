@@ -24,6 +24,7 @@ function Parrallax(){
         return () => clearInterval(intervalId);
     }, [currentIndex])
     return(<>
+    <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
     <div class="containerp slide-in-blurred-top" >
       <div class="seta slide-in-top"></div>
     <div class="texts">

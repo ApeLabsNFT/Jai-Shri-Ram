@@ -7,6 +7,7 @@ import NFT31 from "../assets/nft31.png"
 import NFT32  from "../assets/nft32.png"
 function Tabs(){
   return(<>
+  <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
   
   <h1 class="addition">LATEST ADDITIONS</h1>
   <ul class="cards">

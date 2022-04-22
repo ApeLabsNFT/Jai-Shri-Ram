@@ -30,6 +30,7 @@ function Navbar() {
 
   return (
     <>
+    <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
       <nav className='navbar' >
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>

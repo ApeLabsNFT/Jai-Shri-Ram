@@ -18,6 +18,7 @@ width:"100vw",
 height:"90vh",
 justifyContent:"center"
     }}>
+      <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
       <video 
           src={Video}
           type="video/mp4"

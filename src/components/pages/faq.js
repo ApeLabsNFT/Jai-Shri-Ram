@@ -4,5 +4,8 @@ import FAQ from '../faq';
 
 
 export default function Faq() {
-  return (<><FAQ/></>);
+  return (<>
+  
+  <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
+  <FAQ/></>);
 }

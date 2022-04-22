@@ -3,6 +3,7 @@ import './cards.css';
 
 function Cards() {
   return (<>
+  <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
     <div className='aim'>
       <h1 className="addition">OUR AIM</h1>
       <span className='aimpara'>To bridge the gap between ancient India’s Vedic knowledge and modern India’s technological prowess,
