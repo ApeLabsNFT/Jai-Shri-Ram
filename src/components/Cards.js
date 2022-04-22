@@ -16,7 +16,7 @@ to ensure that the youth realises its role in making the world a better place.
       <div class="card2">
         <h1>Total Supply</h1>
         <br></br>
-      <p>1000</p>
+      <p>1100</p>
       <br></br>
       </div>
     </div>
@@ -24,23 +24,23 @@ to ensure that the youth realises its role in making the world a better place.
       <div class="card2"> 
       <h1>Traits</h1>
       <br></br>
-      <p>$0.01</p>
+      <p>7 Unique Traits</p>
       <br></br>
     </div>
     </div>
     <div class="column">
 
       <div class="card2">
-      <h1 >Volume</h1>
+      <h1 >Items</h1>
       <br></br>
-      <p>$0.01</p>
+      <p>28</p>
       <br></br>
       </div>
     </div>
     <div class="column">
-      <div class="card2"> <h1>$COIN/USDC</h1>
+      <div class="card2"> <h1>$mandircoin/USDC</h1>
       <br></br>
-      <p>$0.01</p>
+      <p>Coming Soon</p>
       <br></br>
       </div>
     </div>

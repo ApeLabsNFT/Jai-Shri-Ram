@@ -40,12 +40,12 @@ export default function SlideShow() {
     }, [currentIndex])
   return (<><div className="paraco ">
    <div>
-   <button  onClick={Previous} class="slideco"><img src="https://img.icons8.com/ios-filled/50/ffffff/circled-chevron-left.png" alt="jaishriram previous slide"/></button>
+   <button  onClick={Previous} class="slideco"><img className="slideco" src="https://img.icons8.com/ios-filled/50/ffffff/circled-chevron-left.png" alt="jaishriram previous slide"/></button>
     
     </div>
   <span id="pa" className="paragraph " >{para[currentIndex]}</span>
   <div className="next" onClick={Next}>
-  <button class="slideco"><img class="slideco" src="https://img.icons8.com/ios-filled/50/ffffff/circled-chevron-right.png" alt="jaishriram next slide"/></button>
+  <button class="slideco"><img className="slideco" class="slideco" src="https://img.icons8.com/ios-filled/50/ffffff/circled-chevron-right.png" alt="jaishriram next slide"/></button>
     </div>
   </div>
 </>
