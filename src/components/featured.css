@@ -10,7 +10,7 @@
     
 }
 .feat{
-    padding: 5%;
+    padding-bottom: 5%;
     background-image: url("../assets/Asset 38.png");
     display: flex;
     max-height: 80vh;
@@ -22,6 +22,7 @@
 }
 .news{
     width: 35vw;
+    height: 50vh;
 }
 .news:hover{
     cursor: pointer;
@@ -33,5 +34,9 @@ flex-direction: column;
     }
     .mid-day{
         flex-direction: row;
+    }
+    .news{
+        width: 40vw;
+        height: 30vh;
     }
 }

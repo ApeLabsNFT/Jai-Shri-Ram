@@ -1,18 +1,7 @@
-.mintco{
-    padding: 5%;
-    display: flex;
-align-items: center;
-flex-direction: column;
-    justify-content: space-between;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-image: url("../assets/mintbg.png");
-    background-repeat: repeat;
-}
+
 .mintcon {
 	font-size: 8rem;
-	text-align: left;
+	text-align: center;
 	font-weight: 900;
 	color: white;
   font-family: 'Akira Expanded', sans-serif;
@@ -57,60 +46,49 @@ flex-direction: column;
 		0px
 		var(--stroke-color);
 	  
-	}
+	}}
+  .mintco{
+    height: 100vh;
+    width: 100vw;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/mintbg.png");
+    background-size: cover;
   }
   .mintimage{
-      width: 500px;
-      height: 500px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border:10px solid #471519;
-      background-color: #2e1213;
-  }
-
-  .mintbutton{
-    font-family: 'Akira Expanded', sans-serif;
-    font-size: 2em;
-    color:#ea0c1e;
-      border: none;
-      width: 300px;
-      height: 60px;
-      margin: auto;
-      background-color: #471519;
-  }
-  
-  @media screen and (max-width: 1200px) and (min-width: 300px)  {
-    .mintcon{
-      margin:auto;
-      font-size: 3em;
-    }
-    .mintimage{
-      width: 90vw;
-      height: 50vh;
-    }
-    .fullco{
-      flex-direction: column;
-    }
-    .mintim{
-      width: 500px;
-      height: 500px;
-    }
-
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 500px;
+    height: 400px;
   }
   .mintim{
     width: 500px;
-    height: 500px;
   }
-
   .mintim2{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
     width: 500px;
-    height: 500px;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
   }
   .fullco{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    align-items: center;
+  }
+  @media screen and (max-width: 1200px) and (min-width: 300px)  {
+    .mintcon{
+      font-size: 3em;
+    }
+    .mintim{
+      display: none;
+    }
+    .mintim2{
+      display: none;
+    }
+    .mintimage{
+      height: auto;
+    }
   }
