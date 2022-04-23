@@ -91,3 +91,19 @@ flex-direction: column;
       height: 50vh;
     }
   }
+  .mintim{
+    width: 500px;
+    height: 500px;
+  }
+
+  .mintim2{
+    width: 500px;
+    height: 500px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  }
+  .fullco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
