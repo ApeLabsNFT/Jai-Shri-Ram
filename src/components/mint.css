@@ -90,6 +90,14 @@ flex-direction: column;
       width: 90vw;
       height: 50vh;
     }
+    .fullco{
+      flex-direction: column;
+    }
+    .mintim{
+      width: 500px;
+      height: 500px;
+    }
+
   }
   .mintim{
     width: 500px;
