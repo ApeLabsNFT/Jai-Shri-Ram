@@ -36,7 +36,7 @@ return (
 
 			<div class="devel"><span>
 			<img alt="JaiShriRam copyright" src={copyright}></img>
-				2022 Rachyata Technologies	
+				2022 Rachayata Tech Pvt Ltd
 				</span>
 			</div>
 			</div>
