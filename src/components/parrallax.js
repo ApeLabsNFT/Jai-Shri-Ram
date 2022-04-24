@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./parrallax.css"
 import "./Navbar.js"
-import FOUR from "../assets/4.png"
+import FOUR from "../assets/17.png"
+import thirtyone from "../assets/32.png"
 import "./token.css"
-import ELEVEN from "../assets/11.png"
-import SEVENTEEN from "../assets/17.png"
+import ELEVEN from "../assets/32.png"
+import SEVENTEEN from "../assets/22.png"
 import "./token.css"
-const images = [FOUR, ELEVEN, SEVENTEEN];
+const images = [FOUR, ELEVEN, SEVENTEEN,thirtyone];
   
 function Parrallax(){
   const [currentIndex, setCurrentIndex] = useState(0);

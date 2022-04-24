@@ -57,8 +57,8 @@
  * ----------------------------------------
  */
  .fade-in {
-	-webkit-animation: fade-in 6s ease-out infinite;
-	        animation: fade-in 6s ease-out infinite ;
+	-webkit-animation: fade-in 10s ease-out infinite;
+	        animation: fade-in 10s ease-out infinite ;
 }
  @-webkit-keyframes fade-out {
     0% {

@@ -34,7 +34,7 @@ export default function SlideShow() {
           
             }
             document.getElementById("pa").classList.add("fade-in")
-        }, 6000)
+        }, 10000)
         
         return () => clearInterval(intervalId);
     }, [currentIndex])
