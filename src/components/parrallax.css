@@ -90,7 +90,7 @@ flex-direction: row;
 		transform:         translateY(0)
 	}
 	40% {
-    opacity: 10%;
+    opacity: 80%;
 		-webkit-transform: translateY(-30px);
 		-ms-transform:     translateY(-30px);
 		transform:         translateY(-30px)
@@ -255,6 +255,9 @@ body{
  
  .butthead {
   transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+ }
+ .button-85:hover{
+   opacity: 100%;
  }
 
  .button-85:hover >.rocket {
