@@ -10,7 +10,7 @@ function Contact(){
             
 
             
-            <span class="email">Email: rachyatatech@gmail.com</span>
+            <span class="email">Email: info@jaishriram.io</span>
             </div>
         </div>
     )
