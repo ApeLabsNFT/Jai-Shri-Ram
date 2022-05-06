@@ -1,0 +1,36 @@
+.insightco{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+     background-color: #140700;;
+    height: 70vh;
+    max-height: 100vh;
+}
+.insighthead {
+    color: white;
+    font-size: 4rem;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .insighthead:after, .insighthead:before {
+    content: '';
+    width: 150px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    margin: 0 10px;
+  }
+  .insightcircle{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+
+  @media screen and (max-width: 1200px) and (min-width: 300px)  {
+      
+  }

@@ -28,23 +28,15 @@ function Parrallax(){
     return(<>
     <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
     <div class="containerp " >
-      <div class="stuff slide-in-blurred-top">
+      <div class="stuff ">
     <div class="texts">
-      <h1 class='rellaxh' data-rellax-speed='8'>Naman Kare Praja Sari<br></br>Ab hai Shri Ram ki baari</h1>
-      <p class='rellaxp ' data-rellax-speed='5'>An embodiment of chivalry and virtue, Ramachandra or Lord Rama is the seventh incarnation of Vishnu- the protector of the universe.
+      <h1 class='rellaxh' data-rellax-speed='8'>Jai Shri Ram</h1>
+      <p class='rellaxp ' data-rellax-speed='5'>An embodiment of chivalry and virtue,<br></br> Ramachandra or Lord Rama is the seventh<br></br>incarnation of Vishnu- the protector of the universe.
 </p>
     </div>
-    <div class="slide">
-    <div class="glitch2">
-  <div class="glitch__item"><img alt="jaishriram nft glitch" style={{opacity:1}} src={images[currentIndex]} /></div>
-  <div class="glitch__item">  <img style={{opacity:0.3}}src={images[currentIndex]}  alt="jaishriram nft glitch"/></div>
-  <div class="glitch__item">  <img  style={{opacity:0.5}} src={images[currentIndex]} alt="jaishriram nft glitch" /></div>
-  <div class="glitch__item">  <img style={{opacity:0.8}} src={images[currentIndex]} alt="jaishriram nft glitch" /></div>
-  <div class="glitch__item">  <img style={{opacity:0.9}} src={images[currentIndex]} alt="jaishriram nft glitch" /></div>
-</div>
+   
     </div>
-    </div>
-    <div class="mintnow slide-in-top">
+    <div class="slide-in-top">
     <Link to="/MINT"><button className="button-85">
  
   <span class="butthead">Mint now</span>
@@ -52,6 +44,7 @@ function Parrallax(){
 </button></Link>
   </div>
   </div>
+  
   </>)
 }
 export default Parrallax;

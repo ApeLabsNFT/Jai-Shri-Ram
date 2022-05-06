@@ -1,0 +1,16 @@
+.roadmap{
+    text-align: center;
+    font-size: 4vw;
+    color: white;
+    font-weight: 900;
+    padding: 1%;
+    border-radius: 50px;
+    font-style: italic;
+    border: 2px solid #eb4d01;
+}
+.roadmap-out{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

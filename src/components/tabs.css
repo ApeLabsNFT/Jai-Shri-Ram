@@ -1,29 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kodchasan:wght@200;400&display=swap');
  .addition{
-	 padding: 3%;
-    color: white;
-    font-family: 'IBM Plex Sans', sans-serif;
+	 margin-top: 2%;
+    
+	text-transform: uppercase;
+	font-size: 3vw;
+	font-family: 'Roboto', sans-serif;
+	color: transparent;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color:#f66a26;
     text-align: center;
+	
+    font-size: 4rem;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.addition:after, .addition:before {
+    content: '';
+    width: 30vw;
+    height: 4px;
+    background:#f66a26;
+    margin: 0 10px;
+  }
 
 :root {
 	--surface-color: rgba(0, 0, 0, 0.9);
 	--curve: 40;
   }  
   .cards { 
-	background-color: black;
+	
 	background-repeat: repeat;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	gap: 2rem;
 	margin: 4rem 5vw;
 	padding: 1%;
 	list-style-type: none;
   }
+  .latest{
+	  position: relative;
+	  display: flex;
+	  flex-direction: column;
+	  background-color: #140700;
+  }
   
   .card {
 	position: relative;
-	
+	border: 2px solid #c54403;
 	display: block;
 	height: 100%;  
 	border-radius: calc(var(--curve) * 1px);

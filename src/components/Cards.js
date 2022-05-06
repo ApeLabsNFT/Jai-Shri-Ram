@@ -1,53 +1,20 @@
-import React from 'react';
-import './cards.css';
 
+import './cards.css';
+import { Slide } from "react-awesome-reveal";
 function Cards() {
   return (<>
   <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
     <div className='aim'>
-      <h1 className="addition">OUR AIM</h1>
+    
+    <h2 class="aimhead">&nbsp;&nbsp;Our Aim&nbsp;&nbsp;</h2>
+    <Slide direction="up">
       <span className='aimpara'>To bridge the gap between ancient India’s Vedic knowledge and modern India’s technological prowess,
 to ensure that the youth realises its role in making the world a better place.
 </span>
+</Slide>
     </div>
-    
-    <div class="row">
-    <h1 className="addition">INSIGHTS</h1>
-    <div class="column">
-      <div class="card2">
-        <h1>Total Supply</h1>
-        <br></br>
-      <p>1100</p>
-      <br></br>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card2"> 
-      <h1>Traits</h1>
-      <br></br>
-      <p>7 Unique Traits</p>
-      <br></br>
-    </div>
-    </div>
-    <div class="column">
-
-      <div class="card2">
-      <h1 >Items</h1>
-      <br></br>
-      <p>28</p>
-      <br></br>
-      </div>
-    </div>
-    <div class="column">
-      <div class="card2"> <h1>$mandircoin/USDC</h1>
-      <br></br>
-      <p>Coming Soon</p>
-      <br></br>
-      </div>
-    </div>
-  </div> 
-  </>
-
+  
+    </>
   );
 }
 

@@ -1,0 +1,57 @@
+.mainco{
+    display: flex;
+    width: 100vw;
+    background-color: #290f02;
+    flex-direction: row;
+    height: 35vh;
+    margin-top: 2%;
+    border-radius: 100px;
+}
+.imageco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50% ;
+border:3px solid white;
+height: 26vh;
+width: 26vh;
+}
+.image{
+    display: flex;
+    background-color: #c54403;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    max-height: 35vh;
+}
+.imagebro{
+    width: 10vw;
+    height: 20vh;
+    padding: 8%;
+}
+.textco-r{
+    padding: 2%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    height: 35vh;
+    width: 80vw;
+
+    text-align: end;
+}
+.digit{
+    border: 2px solid #ff6000;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    font-size: 2vw;
+    justify-content: center;
+    align-items: center;
+    width:8vh;
+    height: 8vh;
+}
+.date{
+    font-size: 3vw;
+
+}

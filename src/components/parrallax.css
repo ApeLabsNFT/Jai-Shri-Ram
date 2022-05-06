@@ -7,14 +7,15 @@ justify-content: center;
 flex-direction: column;
   align-items:center;
   position: relative;
-  animation: bounce 1s 8s linear;
-  background-image: url("../assets/Asset 38.png");
-  background-repeat: repeat;
-  background-size: contain;
+  background-image: url("../assets/top\ banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .stuff{
   display: flex;
-  height: 60vh;
+  height: 70vh;
   width:100vw;
 justify-content: center;
 flex-direction: row;
@@ -120,8 +121,8 @@ flex-direction: row;
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    -webkit-transform: translateY(2000px);
+            transform: translateY(2000px);
     opacity: 1;
   }
 }
@@ -163,28 +164,35 @@ flex-direction: row;
 
 
 .texts{
-padding: 5%;
+  padding: 5%;
+  background-position: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
 
-  background-color: rgb(12, 0, 0);
 
-  width: 60%;
-  max-height: 100%;
+
+  width: 100vw;
+  height: 100vh;
   letter-spacing: .1em;
   margin-bottom: 5%;
 
 }
 .rellaxh{
-  
-  text-transform: uppercase;
-  font-family: 'Kodchasan', sans-serif;
-  color: #ff6600;
-    font-size: 3em;   
+  margin-top: 15%;
+text-align: center;
+  font-style: italic;
+  color: #fdfdfd;
+  width: 50vw;
+  text-shadow: -1px -1px 10px #ff6000, 1px -1px 0 #ff6000, -1px 1px 0 #ff6000, 1px 1px 0 #ff6000;
+    font-size: 8rem;   
 }
 .rellaxp{
-  padding-top: 5%;
-  font-size: 1.5em;   
-  
-  width: auto;
+  text-align:inherit;
+  padding-top: 2%;
+  font-size: 1.5em;  
+margin-left: 8%;
+  width: 50vw;
    color:#ffffff;
   font-weight: 200;
 }

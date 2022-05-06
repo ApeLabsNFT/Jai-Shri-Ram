@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+.quoteco{	
+    font-family: 'Special Elite', cursive;
+	background: #140700;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    height: 60vh;
+width: 100vw;
+	justify-content: center;
+    z-index: -999;
+}
+
+
+blockquote {
+    font-style: italic;
+    text-align: center;
+	font-weight: 100;
+	font-size: 5rem;
+	width: 50vw;
+	line-height: 1.4;
+    z-index: 0;
+	position: relative;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+    color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color:#461c04;
+	font-size: 30rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left:-12%;
+	top:-85%;
+    z-index: -1;
+}
+
+blockquote:after {
+	content: '”';
+	right: 12%;
+    z-index: -1;
+	top:-5%
+}

@@ -1,17 +1,20 @@
 import React from "react"
 import "./tabs.css"
-
+import { Slide } from "react-awesome-reveal"
 import NFT17 from "../assets/nft17.png"
 import NFT22 from "../assets/nft22.png"
 import NFT31 from "../assets/nft31.png"
 import NFT32  from "../assets/nft32.png"
 function Tabs(){
-  return(<>
+  return(
+    
+  < div class="latest">
   <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
   
   <h1 class="addition">LATEST ADDITIONS</h1>
-  <ul class="cards">
   
+  <ul class="cards">
+  <Slide direction="right">
   <li>
     <span class="card">
       <img src={NFT17} class="card__image" alt="" />
@@ -103,7 +106,8 @@ function Tabs(){
         </span></p>
       </div>
     </span>
-  </li>    
+  </li> 
+  </Slide>   
 </ul>
-</>)};
+</div>)};
 export default Tabs

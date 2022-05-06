@@ -1,121 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
 @import url('http://fonts.cdnfonts.com/css/akira-expanded');
-  body {
-    font-family: 'Kodchasan', sans-serif;
-  }
-  
-  /* Float four columns side by side */
-  .column {
-    float: left;
-    width: 25%;
-    padding: 0 20px;
-    
-  }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {
-    
-    background-repeat: repeat;
-  
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    padding:2%;
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Style the counter card2s */
-  .card2 {
-    padding:20%;
-    text-align: center;
-    
-      --border-width: 3px;
-      position: relative;
-      display: block;
-      justify-content: center;
-      align-items: center;
-      min-height: 180px;
-      width: auto;
-      height: auto;
-      font-family: Lato, sans-serif;
-      
-      text-transform: uppercase;
-      color: white;
-      background: rgba(0,0,0,1);
-      border-radius: var(--border-width);
-   }
-   .card2:hover{
-     background: transparent;
-     -webkit-box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
--moz-box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
-box-shadow: 0px 0px 44px 2px rgba(242,233,242,1);
-   }
-    .card2::after {
-
-      position: absolute;
-      content: "";
-      top: calc(-1 * var(--border-width));
-      left: calc(-1 * var(--border-width));
-      z-index: -1;
-      width: calc(100% + var(--border-width) * 2);
-      height: calc(100% + var(--border-width) * 2);
-      background: linear-gradient(60deg, #5f86f2, #a65ff2, #f25fd0, #f25f61, #f2cb5f, #abf25f, #5ff281, #5ff2f0);
-      background-size: 300% 300%;
-      background-position: 0 50%;
-      border-radius: calc(2 * var(--border-width));
-      animation: moveGradient 4s alternate infinite;
-   }
-    @keyframes moveGradient {
-      50% {
-        background-position: 100% 50%;
-     }
-   }
-  .card2 > h1{
-    font-family: 'IBM Plex Sans', sans-serif;
-    letter-spacing: var(--chakra-letterSpacings-widest);
-    font-size: larger;
-    font-weight: bolder;
-    color:white;
-    text-align: center;
-  }
-  .card2 > p{
-    font-size: larger;
-    font-weight: bolder;
-    color:white;
-  }
-  
-  /* Responsive columns - one column layout (vertical) on small screens */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
   .aimpara{
-    border: 2px solid white;
+    border: 2px solid #fa6d28;
     color:#ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
+    font-size: 2.2rem;
     margin-left: 5%;
     margin-right: 5%;
     padding: 5%;
     text-align: center;
     font-family: 'Kodchasan', sans-serif;
     text-transform: uppercase;
-    border-radius: 80px;
-    background: rgba(0,0,0,0.5);
+    border-radius: 40px;
+    
   }
   .aim{
-    padding-bottom: 5%;
-    background-image: url("../assets/Asset 38.png");
+    padding:5%;
+    color:#fa6d28 ;
     background-repeat: repeat;
     background-size: contain;
+    background-color:#1b0e08 ;
+  }
+  .aimhead {
+    padding: 3%;
+    color: #fa6d28;
+    font-size: 4rem;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .aimhead:after, .aimhead:before {
+    content: '';
+    width: 150px;
+    height: 2px;
+    background: #fa6d28;
+    margin: 0 10px;
   }
   @media screen and (max-width: 1200px) and (min-width: 300px)  {
     .aimpara{

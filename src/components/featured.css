@@ -11,7 +11,7 @@
 }
 .feat{
     padding-bottom: 5%;
-    background-image: url("../assets/Asset 38.png");
+    background-color: #1b0e08;
     display: flex;
     max-height: 80vh;
     background-size: contain;
@@ -39,4 +39,15 @@ flex-direction: column;
         width: 40vw;
         height: 30vh;
     }
+}
+.featured{
+        font-size: 5vw;
+        font-weight: 900;
+        color: white;
+        margin-top: 1%;
+        margin-left: 10%;
+        font-style: italic;
+        align-self: flex-start;
+        
+
 }
