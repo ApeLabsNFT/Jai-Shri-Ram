@@ -1,14 +1,34 @@
 .caraco{
  display: flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
-  width: 100vw;
-  height: 50vh;
+ width: 100%;
+ height: 50vh;
 }
 .carapara{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 80%;
+}
+.arrows{
+  width: 5vw;
+  opacity: 1;
+  filter: saturate(500%);
+  height: 5vw;
+}
+@media screen and (max-width: 1200px) and (min-width: 300px)  {
+  .caraco{
+    height: 20vh;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .arrows{
+    width: 2vh;
+    opacity: 1;
+    filter: saturate(500%);
+    height: 2vh;
+  }
 }

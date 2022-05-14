@@ -6,9 +6,11 @@
     padding: 1%;
     border-radius: 50px;
     font-style: italic;
+    
     border: 2px solid #eb4d01;
 }
 .roadmap-out{
+    overflow-x: hidden;
 
     display: flex;
     justify-content: center;

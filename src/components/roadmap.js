@@ -11,7 +11,7 @@ import mint from "../assets/mint goes live.png"
 import "./roadmap.css"
 import { Slide } from "react-awesome-reveal"
 function Roadmap(){
-    return(<Container fluid className="w-100">
+    return(<Container fluid >
         <Row className="roadmap-out">
             <Col className="roadmap-out">
             <h1 className="roadmap">Roadmap</h1>

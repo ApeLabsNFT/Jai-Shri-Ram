@@ -7,13 +7,13 @@ const para=["Lord Ram is one of the most widely worshiped deities in the world. 
 ]
 
 console.log(para.length)
-const previousIcon=<span><img width="60vw" height="60vh" src={left}></img></span>
-const NextIcon=<span><img width="60vw" height="60vh" src={right}></img></span>
+const previousIcon=<span ><img className="arrows"  src={left}></img></span>
+const NextIcon=<span ><img className="arrows"  src={right}></img></span>
 export default function SlideShow() {
 
   return(
-    <Container fluid>
-    <Carousel className="caraco justify-content-center text-center" touch 
+    <Container fluid >
+    <Carousel className="  caraco justify-content-center text-center" touch 
     prevIcon={previousIcon} nextIcon={NextIcon}
     >
       

@@ -18,7 +18,7 @@
   }
   .aim{
     padding:5%;
-    color:#fa6d28 ;
+
     background-repeat: repeat;
     background-size: contain;
     background-color:#1b0e08 ;
@@ -26,7 +26,8 @@
   .aimhead {
     padding: 3%;
     color: #fa6d28;
-    font-size: 4rem;
+    font-size: 4vw;
+
     font-style: italic;
     display: flex;
     align-items: center;
@@ -35,7 +36,7 @@
   
   .aimhead:after, .aimhead:before {
     content: '';
-    width: 150px;
+    width: 20%;
     height: 2px;
     background: #fa6d28;
     margin: 0 10px;
@@ -44,6 +45,7 @@
     .aimpara{
       font-size: 0.5rem;
     }
+    
 
   }
   

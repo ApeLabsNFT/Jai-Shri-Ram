@@ -3,14 +3,14 @@
 	 margin-top: 2%;
     
 	text-transform: uppercase;
-	font-size: 3vw;
+	font-size: 4rem;
 	font-family: 'Roboto', sans-serif;
 	color: transparent;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color:#f66a26;
     text-align: center;
 	
-    font-size: 4rem;
+    
     font-style: italic;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
 }
 .addition:after, .addition:before {
     content: '';
-    width: 30vw;
+    width: 30%;
     height: 4px;
     background:#f66a26;
     margin: 0 10px;
@@ -157,3 +157,11 @@
   .trait{
 font-size: 0.8em;
   }
+  @media screen and (max-width: 1200px) and (min-width: 300px)  {
+    .addition{
+		font-size: 3rem;
+	}
+	body{
+		overflow-x:hidden;
+	}
+}

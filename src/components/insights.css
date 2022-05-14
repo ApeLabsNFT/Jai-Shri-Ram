@@ -3,14 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
      background-color: #140700;;
     height: 70vh;
     max-height: 100vh;
 }
 .insighthead {
     color: white;
-    font-size: 4rem;
+    font-size: 4vw;
     font-style: italic;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
   
   .insighthead:after, .insighthead:before {
     content: '';
-    width: 150px;
+    width: 20%;
     height: 2px;
     background: rgb(255, 255, 255);
     margin: 0 10px;

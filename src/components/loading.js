@@ -14,7 +14,7 @@ const handleToggleMute = () => setMuted(current => !current);
     <div class="vod" style={{
 alignContent:"center",
 display:"flex",
-width:"100vw",
+width:"100%",
 height:"90vh",
 justifyContent:"center"
     }}>

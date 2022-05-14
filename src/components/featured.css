@@ -5,10 +5,23 @@
     align-items: center;
     flex-direction: row;
     
-    width: 100vw;
+    width: 100%;
     
     
 }
+.featured{
+    font-size: 5vw;
+    font-weight: 900;
+    color: white;
+    margin-top: 1%;
+    margin-left: 10%;
+    font-style: italic;
+    align-self: flex-start;
+    
+
+}
+
+
 .feat{
     padding-bottom: 5%;
     background-color: #1b0e08;
@@ -33,21 +46,15 @@
 flex-direction: column;
     }
     .mid-day{
-        flex-direction: row;
+        flex-direction: column;
     }
     .news{
-        width: 40vw;
+        width: 30vh;
         height: 30vh;
-    }
-}
-.featured{
-        font-size: 5vw;
-        font-weight: 900;
-        color: white;
-        margin-top: 1%;
-        margin-left: 10%;
-        font-style: italic;
-        align-self: flex-start;
+        margin: 0.5%;
         
-
+    }
+    .featured{
+        font-size: 10vw;
+    }
 }

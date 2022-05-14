@@ -7,7 +7,7 @@
 	flex-direction: column;
 	align-items: center;
     height: 60vh;
-width: 100vw;
+width: 100%;
 	justify-content: center;
     z-index: -999;
 }
@@ -47,4 +47,16 @@ blockquote:after {
 	right: 12%;
     z-index: -1;
 	top:-5%
+}
+@media screen and (max-width: 1200px) and (min-width: 300px)  {
+	blockquote{
+		font-size: 4vw;
+	}
+	.quoteco{
+		height: 20vh;
+	}
+	blockquote:before,
+blockquote:after{
+	display: none;
+}
 }
