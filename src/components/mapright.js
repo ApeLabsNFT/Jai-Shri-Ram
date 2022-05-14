@@ -1,6 +1,4 @@
-import { Container,Row,Col} from "react-bootstrap"
-import { propTypes } from "react-bootstrap/esm/Image"
-import tenth from "../assets/10th.png"
+
 import "./mapright.css"
 function MapRight(props){
     return(
@@ -71,7 +69,7 @@ function MapRight(props){
  </div>
  <div className="imageleftco1">
     <div className="imageleftco">
- <img className="imagebro" src={props.image}></img>
+ <img className="imagebro" alt="jaishriramnft nft jai shri ram nft insights money" src={props.image}></img>
  </div>
  </div>
  </div>

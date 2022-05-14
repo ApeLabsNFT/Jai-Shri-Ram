@@ -1,6 +1,4 @@
-import { Container,Row,Col} from "react-bootstrap"
-import { propTypes } from "react-bootstrap/esm/Image"
-import tenth from "../assets/10th.png"
+
 import "./mapleft.css"
 function Mapleft(props){
     return(
@@ -48,7 +46,7 @@ function Mapleft(props){
 <div className="roadleft">
     <div className="imageleftco1">
     <div className="imageleftco">
- <img className="imagebro" src={props.image}></img>
+ <img className="imagebro" alt="jaishriramnft nft jai shri ram nft insights money" src={props.image}></img>
  </div>
  </div>
  <div className="roadrightco">
@@ -65,7 +63,7 @@ function Mapleft(props){
                              colorr:"white",fontSize:"1.4vw", color:"white",alignSelf:"flex-end"
                          }}
                          >{props.para}</span>
-                            <span 
+                           <span 
                          style={{
                              width:"50vw",colorr:"white",fontSize:"1.1vw", color:"white",alignSelf:"flex-end"
                          }}

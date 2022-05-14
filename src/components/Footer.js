@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css"
-import copyright from "../assets/copyright-16.png"
-import swastik from "../assets/swastik.png"
+import copyright from "../assets/copyright-16.webp"
+import swastik from "../assets/swastik.webp"
 import { Link } from "react-router-dom";
 const Footer = () => {
 return (
@@ -18,10 +18,10 @@ return (
 			<div class="icons">
 			<span className="Followus">Follow us on :</span>
 			<div className="media-icons">
-				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100080178372435"><img alt="JaiShriRam Facebook" src="https://img.icons8.com/fluency/48/000000/facebook-new.png"/></a>
-				<a target="_blank" rel="noopener noreferrer" href="https://instagram.com/jaishriramnft?igshid=YmMyMTA2M2Y="><img alt="JaiShriRam Instagram" src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></a>
-				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/JaiShriRamNFT?t=qB-JZ5gYPqTcEldaopxG8g&s=09"><img alt="JaiShriRam Twitter" src="https://img.icons8.com/fluency/48/000000/twitter-circled.png"/></a>
-				<a  href="https://www.facebook.com/profile.php?id=100080178372435"><img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.png" alt="JaiShriRam Linkedin"/></a>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100080178372435"><img alt="JaiShriRam Facebook" src="https://img.icons8.com/fluency/48/000000/facebook-new.webp"/></a>
+				<a target="_blank" rel="noopener noreferrer" href="https://instagram.com/jaishriramnft?igshid=YmMyMTA2M2Y="><img alt="JaiShriRam Instagram" src="https://img.icons8.com/fluency/48/000000/instagram-new.webp"/></a>
+				<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/JaiShriRamNFT?t=qB-JZ5gYPqTcEldaopxG8g&s=09"><img alt="JaiShriRam Twitter" src="https://img.icons8.com/fluency/48/000000/twitter-circled.webp"/></a>
+				<a  href="https://www.facebook.com/profile.php?id=100080178372435"><img src="https://img.icons8.com/fluency/48/000000/linkedin-circled.webp" alt="JaiShriRam Linkedin"/></a>
 			</div>
 
 			</div>

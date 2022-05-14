@@ -2,13 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./parrallax.css"
 import { Link } from "react-router-dom";
 import "./Navbar.js"
-import FOUR from "../assets/17.png"
-import thirtyone from "../assets/32.png"
+import FOUR from "../assets/17.webp"
+import thirtyone from "../assets/32.webp"
 import "./token.css"
-import ELEVEN from "../assets/32.png"
-import SEVENTEEN from "../assets/22.png"
+import ELEVEN from "../assets/32.webp"
+import SEVENTEEN from "../assets/22.webp"
 import "./token.css"
-import { Slide } from "react-awesome-reveal";
 const images = [FOUR, ELEVEN, SEVENTEEN,thirtyone];
   
 function Parrallax(){

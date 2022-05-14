@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import swastik from "../assets/swastik.png"
+import swastik from "../assets/swastik.webp"
 function Navbar() {
   const [click, setClick] = useState(false);
 

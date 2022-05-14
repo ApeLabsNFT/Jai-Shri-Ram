@@ -1,10 +1,10 @@
 import React from "react"
 import "./tabs.css"
 import { Slide } from "react-awesome-reveal"
-import NFT17 from "../assets/nft17.png"
-import NFT22 from "../assets/nft22.png"
-import NFT31 from "../assets/nft31.png"
-import NFT32  from "../assets/nft32.png"
+import NFT17 from "../assets/nft17.webp"
+import NFT22 from "../assets/nft22.webp"
+import NFT31 from "../assets/nft31.webp"
+import NFT32  from "../assets/nft32.webp"
 function Tabs(){
   return(
     

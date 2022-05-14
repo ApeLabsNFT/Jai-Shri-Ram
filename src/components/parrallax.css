@@ -7,7 +7,7 @@ justify-content: center;
 flex-direction: column;
   align-items:center;
   position: relative;
-  background-image: url("../assets/top\ banner.png");
+  background-image: url("../assets/top\ banner.webp");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -293,7 +293,7 @@ margin-left: 8%;
 }
 @media screen and (max-width: 540px) and (min-width: 300px)  {
   .containerp{
-    background-image: url("../assets/mobile\ banner.png");
+    background-image: url("../assets/mobile\ banner.webp");
     background-size: cover;
     height: 100vh;
    background-position: center;

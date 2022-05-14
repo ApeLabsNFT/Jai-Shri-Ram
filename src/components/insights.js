@@ -1,10 +1,10 @@
 import Circle from "./circle";
 import "./insights.css"
 import { Container,Row,Col} from "react-bootstrap";
-import supply from "../assets/supply icon.png"
-import dollar from "../assets/dollar icon.png"
-import traits from "../assets/traits icon.png"
-import items from "../assets/items icon.png"
+import supply from "../assets/supply icon.webp"
+import dollar from "../assets/dollar icon.webp"
+import traits from "../assets/traits icon.webp"
+import items from "../assets/items icon.webp"
 import { Slide } from "react-awesome-reveal";
 function Insights(){
     return(

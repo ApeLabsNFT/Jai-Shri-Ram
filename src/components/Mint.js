@@ -1,5 +1,5 @@
 import "./mint.css"
-import NFT11 from"../assets/32.png"
+import NFT11 from"../assets/32.webp"
 
 import Connect from "../connect";
 function Mint(){
