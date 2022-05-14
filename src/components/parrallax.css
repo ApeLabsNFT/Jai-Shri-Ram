@@ -12,6 +12,7 @@ flex-direction: column;
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  filter: saturate(150%);
 }
 .stuff{
   display: flex;

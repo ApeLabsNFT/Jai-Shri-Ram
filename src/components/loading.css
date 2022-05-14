@@ -5,6 +5,7 @@
     height:90vh;
 flex-direction: row;
     justify-content:center;
+    filter: saturate(120%);
   }
   
   /* Make the image responsive */
