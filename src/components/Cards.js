@@ -1,7 +1,7 @@
 
 import './cards.css';
 import { Slide } from "react-awesome-reveal";
-function Cards() {
+function Aim() {
   return (<>
   <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
     <div className='aim'>
@@ -18,4 +18,4 @@ to ensure that the youth realises its role in making the world a better place.
   );
 }
 
-export default Cards;
+export default Aim;

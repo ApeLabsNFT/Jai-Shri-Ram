@@ -19,22 +19,22 @@ export default function SlideShow() {
       
   <Carousel.Item >
 <Container className="carapara">
-      <span style={{fontSize:"2vw",color:"white"}}>{para[0]}</span>
+      <span className="slidepara">{para[0]}</span>
       </Container>
   </Carousel.Item>
   <Carousel.Item >
 <Container className="carapara">
-      <span style={{fontSize:"2vw",color:"white"}}>{para[1]}</span>
+      <span className="slidepara">{para[1]}</span>
       </Container>
   </Carousel.Item>
   <Carousel.Item >
 <Container className="carapara">
-      <span style={{fontSize:"2vw",color:"white"}}>{para[2]}</span>
+      <span className="slidepara">{para[2]}</span>
       </Container>
   </Carousel.Item>
   <Carousel.Item >
 <Container className="carapara">
-      <span style={{fontSize:"2vw",color:"white"}}>{para[3]}</span>
+      <span className="slidepara">{para[3]}</span>
       </Container>
   </Carousel.Item>
 </Carousel>

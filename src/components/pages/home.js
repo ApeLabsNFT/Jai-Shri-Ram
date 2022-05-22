@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import Cards from "../Cards"
 import Tabs from '../Tabs';
 import Footer from '../Footer';
 import Parrallax from '../parrallax';
@@ -9,6 +8,7 @@ import Featured from '../featured';
 import Insights from '../insights';
 import Naman from '../naman';
 import Roadmap from '../roadmap';
+import Aim from '../Cards';
 
 function Home()
 
@@ -20,7 +20,7 @@ function Home()
 {/* <Para/> */}
 <SlideShow/>
 <Naman/>
-<Cards/>
+<Aim/>
 <Insights/>
 <Roadmap/>
     <Tabs/>

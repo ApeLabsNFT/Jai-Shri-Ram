@@ -60,3 +60,15 @@ blockquote:after{
 	display: none;
 }
 }
+
+@media screen and (max-width: 1645px) and (min-width: 1200px)  {
+	blockquote{
+font-size: 4vw;
+width:100%
+	}
+	blockquote:before,
+	blockquote:after{
+		display: none;
+	
+	}
+}

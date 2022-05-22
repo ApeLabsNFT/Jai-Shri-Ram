@@ -5,6 +5,7 @@ import NFT17 from "../assets/nft17.webp"
 import NFT22 from "../assets/nft22.webp"
 import NFT31 from "../assets/nft31.webp"
 import NFT32  from "../assets/nft32.webp"
+import { Container,Row,Col } from "react-bootstrap"
 function Tabs(){
   return(
     
@@ -13,10 +14,12 @@ function Tabs(){
   
   <h1 class="addition">LATEST ADDITIONS</h1>
   
-  <ul class="cards">
+  <Container fluid >
+
   <Slide direction="right">
-  <li>
-    <span class="card">
+    <Row xs={1} lg={4}>
+  <Col>
+    <span class="nftcard">
       <img src={NFT17} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
@@ -37,9 +40,9 @@ function Tabs(){
         </span></p>
       </div>
     </span>      
-  </li>
-  <li>
-    <span class="card">
+  </Col>
+  <Col>
+    <span class="nftcard">
       <img src={NFT22} class="card__image" alt="" />
       <div class="card__overlay">        
         <div class="card__header">
@@ -59,9 +62,9 @@ function Tabs(){
         </span></p>
       </div>
     </span>
-  </li>
-  <li>
-    <span class="card">
+  </Col>
+  <Col>
+    <span class="nftcard">
       <img src={NFT31} class="card__image" alt="" />
       <div class="card__overlay">
         <div class="card__header">
@@ -83,12 +86,12 @@ function Tabs(){
         </span></p>
       </div>
     </span>
-  </li>
-  <li>
-    <span class="card">
+  </Col>
+  <Col>
+    <span class="nftcard">
       <img src={NFT32} class="card__image" alt="" />
       <div class="card__overlay">
-        <div class="card__header">
+        <div  class="card__header">
           <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
           
           <div class="card__header-text">
@@ -106,8 +109,10 @@ function Tabs(){
         </span></p>
       </div>
     </span>
-  </li> 
+  </Col> 
+  </Row>
   </Slide>   
-</ul>
+  
+</Container>
 </div>)};
 export default Tabs

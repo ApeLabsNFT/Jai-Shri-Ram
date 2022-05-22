@@ -55,14 +55,14 @@ function MapRight(props){
                              width:"60%",
                              alignSelf:"flex-start"
                          }}></hr>
-                            <span 
+                            <span className="firstpara"
                          style={{
-                             colorr:"white",fontSize:"1.4vw", color:"white",alignSelf:"flex-start", textAlign:"left"
+                             color:"white",alignSelf:"flex-start", textAlign:"left"
                          }}
                          >{props.para}</span>
-                            <span 
+                            <span className="secpara"
                          style={{
-                             width:"50vw",colorr:"white",fontSize:"1.1vw", color:"white",alignSelf:"flex-start",textAlign:"left"
+                            width:"50vw",color:"white",alignSelf:"flex-start",textAlign:"left"
                          }}
                          >{props.secpara}</span>
 

@@ -7,11 +7,10 @@ import sale50 from "../assets/50_ sale.webp"
 import sale75 from "../assets/75_ sale.webp"
 import game from "../assets/initiate phase 2.webp"
 import mint from "../assets/mint goes live.webp"
-
 import "./roadmap.css"
 import { Slide } from "react-awesome-reveal"
 function Roadmap(){
-    return(<Container fluid >
+    return(<Container fluid className="roadbg">
         <Row className="roadmap-out">
             <Col className="roadmap-out">
             <h1 className="roadmap">Roadmap</h1>

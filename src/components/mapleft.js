@@ -58,14 +58,14 @@ function Mapleft(props){
                              height:"3px",
                              width:"60%"
                          }}></hr>
-                            <span 
+                            <span className="firstpara"
                          style={{
-                             colorr:"white",fontSize:"1.4vw", color:"white",alignSelf:"flex-end"
+                             color:"white",alignSelf:"flex-end"
                          }}
                          >{props.para}</span>
-                           <span 
+                           <span  className="secpara"
                          style={{
-                             width:"50vw",colorr:"white",fontSize:"1.1vw", color:"white",alignSelf:"flex-end"
+                            color:"white",alignSelf:"flex-end"
                          }}
                          >{props.secpara}</span>
 

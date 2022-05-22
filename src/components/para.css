@@ -4,13 +4,20 @@
  justify-content: center;
  align-items: center;
  width: 100%;
- height: 50vh;
+ min-height:60vh;
+ height: fit-content;
 }
 .carapara{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
+
+}
+.slidepara{
+  width: 100%;
+  font-size: 2vw;
+  color: white;
 }
 .arrows{
   width: 5vw;
@@ -20,7 +27,7 @@
 }
 @media screen and (max-width: 1200px) and (min-width: 300px)  {
   .caraco{
-    height: 20vh;
+    min-height: 30vh;
   }
   body{
     overflow-x: hidden;
@@ -30,5 +37,8 @@
     opacity: 1;
     filter: saturate(500%);
     height: 2vh;
+  }
+  .slidepara{
+    font-size: 3vw;
   }
 }
