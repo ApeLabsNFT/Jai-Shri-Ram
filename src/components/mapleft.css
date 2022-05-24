@@ -57,6 +57,28 @@
 }
 @media screen and (max-width: 1200px) and (min-width: 300px)  {
     .roadleft{
+        
+    }
+    .date{
+        font-size: 3vw;
+    }
+    .digitright{
+        width: 3vh;
+        height: 3vh;
+    }.roadrightco{
+        width: 60%;
+        border-radius: 0%;
+    }.imageleftco1{
+        width: 40%;
+    }
+    .imageleftco{
+        width: 100px;
+        height: 100px;
+
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 300px)  {
+    .roadleft{
         height: 20vh;
     }
     .date{

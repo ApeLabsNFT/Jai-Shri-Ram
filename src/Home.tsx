@@ -31,13 +31,32 @@ const ConnectButton = styled(WalletDialogButton)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+  font-family: 'Akira Expanded', sans-serif;
+  letter-spacing:4px;
   color: white;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 900;
+  background: rgb(18,18,18);
+    background: radial-gradient(circle, rgba(18,18,18,1) 36%, rgba(194,50,88,1) 100%, rgba(4,4,4,1) 100%); 
+	background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 `;
 
-const MintContainer = styled.div``; // add your owns styles here
+const MintContainer = styled.div`
+
+`; // add your owns styles here
 
 export interface HomeProps {
   candyMachineId?: anchor.web3.PublicKey;
@@ -395,8 +414,8 @@ const Home = (props: HomeProps) => {
           style={{
             padding: 24,
             paddingBottom: 10,
-            backgroundColor: '#151A1F',
-            borderRadius: 6,
+            backgroundColor: "rgba(0,0,0,0.7)",
+            
           }}
         >
           {!wallet.connected ? (
@@ -599,7 +618,7 @@ const Home = (props: HomeProps) => {
             variant="caption"
             align="center"
             display="block"
-            style={{ marginTop: 7, color: 'grey' }}
+            style={{ marginTop: 7, color: 'white' }}
           >
             Powered by METAPLEX
           </Typography>

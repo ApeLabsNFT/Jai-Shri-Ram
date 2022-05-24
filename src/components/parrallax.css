@@ -4,7 +4,7 @@ body{
   background-color: #1b0e08;
 }
 .landing{
-  margin: 1%;
+  
 display: flex;
 justify-content: space-evenly;
 align-items:center ;
@@ -43,7 +43,7 @@ flex-direction: row;
  
 }
 .landimage{
-  width: 100%;
+  width: auto;
   border-top-right-radius: 100px;
   border-top-left-radius: 100px;
 }
@@ -89,7 +89,9 @@ animation: gradient 15s ease infinite, heartbeat 1.5s ease-in-out infinite both;
   
 }
 .bootcard{
-  width: 55%;
+  width: 60%;
+
+  height: fit-content;
    background-color:white;
    position: relative;
 border-radius:100px
@@ -233,9 +235,8 @@ border-radius:100px
   .landtext{
     font-size: 1.5vh;
   }
-  .sol{
-    width: 100px;
-  }
-
+.sol{
+  width: 50%;
+}
 
 }

@@ -1,7 +1,7 @@
 
 import "./parrallax.css"
 import { Card } from "react-bootstrap";
-  import nft22 from "../assets/nft32.webp"
+  import nft22 from "../assets/nft32.png"
   import solana from "../assets/solanaLogo.png"
   import { Link } from "react-router-dom";
   
@@ -43,7 +43,10 @@ function Parrallax(){
     >
       Jai Shri Ram
       </Card.Title>
-    <Card.Text >
+    <Card.Text style={{
+      display:"flex",
+      flexDirection:"column"
+    }} >
       <p className="landtext"
         >by Rachayata Tech</p>
       <div style={{
@@ -51,13 +54,13 @@ function Parrallax(){
         justifyContent:"center",
         alignItems:"center"
       }}>
-      <Link to="/HOME" className="landbut" >Mint Now</Link>
+      <Link to="/MINT" className="landbut" >Mint Now</Link>
       </div>
       <span style={{
-    backgroundColor:"transparent",color:"black",display:"flex",alignItems:"center",justifyContent:"center",
+    backgroundColor:"transparent",color:"black",display:"flex",alignItems:"center",justifyContent:"center",width:"100%",alignSelf:"center"
   }}>   
   <span style={{
-  borderRadius:"200px",padding:"1%",
+  borderRadius:"200px",padding:"1%"
   }}>
   Powered By <img alt="jaishriram nft" className="sol" src={solana}></img>
   </span>

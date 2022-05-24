@@ -1,10 +1,10 @@
 import React from "react"
 import "./tabs.css"
 import { Slide } from "react-awesome-reveal"
-import NFT17 from "../assets/nft17.webp"
-import NFT22 from "../assets/nft22.webp"
-import NFT31 from "../assets/nft31.webp"
-import NFT32  from "../assets/nft32.webp"
+import NFT17 from "../assets/nft17.png"
+import NFT22 from "../assets/nft22.png"
+import NFT31 from "../assets/nft31.png"
+import NFT32  from "../assets/nft92.png"
 import { Container,Row,Col } from "react-bootstrap"
 function Tabs(){
   return(
@@ -17,7 +17,7 @@ function Tabs(){
   <Container fluid >
 
   <Slide direction="right">
-    <Row xs={1} lg={4}>
+    <Row xs={1} md={2} lg={4}>
   <Col>
     <span class="nftcard">
       <img src={NFT17} class="card__image" alt="" />

@@ -1,5 +1,6 @@
 
 .mintcon {
+  position: relative;
 	font-size: 8rem;
 	text-align: center;
 	font-weight: 900;
@@ -55,28 +56,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/mintbg.webp");
+  
     background-size: cover;
-  }
-  .mintimage{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 500px;
-    height: 400px;
-  }
-  .mintim{
-    width: 500px;
-  }
-  .mintim2{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    width: 500px;
-  }
-  .fullco{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
   }
   @media screen and (max-width: 1200px) and (min-width: 300px)  {
     .mintcon{
@@ -92,3 +73,105 @@
       height: auto;
     }
   }
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  grid-gap: 10px;
+  filter: saturate(200%);
+}
+
+.grid-item1 {
+  background-image: url("../assets/collage/107.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  
+}
+
+.grid-item2 {
+  background-image: url("../assets/collage/11.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 1/2;
+  grid-row: 2/5;
+}
+
+.grid-item3 {
+  background-image: url("../assets/collage/1226.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 1/5;
+  grid-row: 5/5;
+}
+
+
+.grid-item4 {
+  background-image: url("../assets/collage/267.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 2/4;
+  grid-row: 2/5;
+}
+.grid-item4:hover{
+  background-image: url("../assets/5.png");
+}
+.grid-item6:hover{
+  background-image: url("../assets/5.png");
+}
+.grid-item1:hover{
+  background-image: url("../assets/5.png");
+}
+.grid-item2:hover{
+  background-image: url("../assets/6.png");
+}
+.grid-item7:hover{
+  background-image: url("../assets/6.png");
+}
+.grid-item8:hover{
+  background-image: url("../assets/6.png");
+}
+.grid-item3:hover{
+  background-image: url("../assets/11s-7.png");
+}
+.grid-item5:hover{
+  background-image: url("../assets/11s-7.png");
+}
+.grid-item5 {
+  background-image: url("../assets/collage/273.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 4/6;
+  grid-row: 1/3;
+}
+
+.grid-item6 {
+  background-image: url("../assets/collage/460.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 4/5;
+  grid-row: 3/5;
+}
+
+.grid-item7 {
+  background-image: url("../assets/collage/605.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 5/6;
+  grid-row: 3/6;
+}
+
+.grid-item8 {
+  background-image: url("../assets/collage/7.png");
+  background-size: contain;
+  background-position: center;
+  grid-column: 6/8;
+  grid-row: 1/6;
+}
+

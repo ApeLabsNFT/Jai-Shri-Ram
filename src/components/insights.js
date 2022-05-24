@@ -4,7 +4,7 @@ import { Container,Row,Col} from "react-bootstrap";
 import supply from "../assets/supply icon.webp"
 import dollar from "../assets/dollar icon.webp"
 import traits from "../assets/traits icon.webp"
-import items from "../assets/items icon.webp"
+import items from "../assets/items icon.png"
 import { Slide } from "react-awesome-reveal";
 function Insights(){
     return(

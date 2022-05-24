@@ -33,7 +33,35 @@
     height: 5vw;
     
 }
-@media screen and (max-width: 1200px) and (min-width: 300px)  {
+@media screen and (max-width: 1200px) and (min-width: 800px)  {
+    .roadright{
+        
+    }
+    .date{
+        font-size: 3vw;
+    }
+    .digitleft{
+        width: 3vh;
+        height: 3vh;
+    }.roadleftco{
+        width: 60%;
+        border-radius: 0%;
+    }.imageleftco1{
+        width: 40%;
+    }
+    .imageleftco{
+        width: 100px;
+        height: 100px;
+
+    }
+    .firstpara{
+        font-size: 3vw;
+    }
+    .secpara{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 300px)  {
     .roadright{
         height: 20vh;
     }

@@ -28,9 +28,9 @@ justifyContent:"center"
         >
       </video>
       <button onClick={handleToggleMute} className="control">{muted &&
-        <img src="https://img.icons8.com/ios/50/ffffff/mute--v1.webp" alt="Jaishriram mute"/>}
+        <img src="https://img.icons8.com/ios/50/ffffff/mute--v1.png" alt="Jaishriram mute"/>}
         {!muted &&
-       <img src="https://img.icons8.com/ios/50/ffffff/high-volume--v1.webp" alt="jaishriram unmute"/>}
+       <img src="https://img.icons8.com/ios/50/ffffff/high-volume--v1.png" alt="jaishriram unmute"/>}
         </button>
       <button  class="gettohome" ><Link
                 to='/HOME'

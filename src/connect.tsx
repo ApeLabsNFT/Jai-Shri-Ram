@@ -1,4 +1,4 @@
-
+import './App.css';
 import { useMemo } from 'react';
 import * as anchor from '@project-serum/anchor';
 import Home from './Home';
@@ -61,7 +61,8 @@ const Connect = () => {
     [],
   );
 
-  return (   <ThemeProvider theme={theme}>
+  return (
+    <ThemeProvider theme={theme}>
       <ConnectionProvider endpoint={endpoint}>
         <WalletProvider wallets={wallets} autoConnect>
           <WalletDialogProvider>
@@ -75,7 +76,6 @@ const Connect = () => {
         </WalletProvider>
       </ConnectionProvider>
     </ThemeProvider>
-    
   );
 };
 

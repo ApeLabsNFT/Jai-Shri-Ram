@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 1200px) and (min-width: 300px)  {
   .caraco{
-    min-height: 30vh;
+    min-height: 40vh;
   }
   body{
     overflow-x: hidden;

@@ -1,66 +1,40 @@
-import React, { useState } from 'react';
-
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-import swastik from "../assets/swastik.webp"
-function Navbar() {
-  const [click, setClick] = useState(false);
-
-  
-
-  const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
-
-
-
-
-
-
-  return (
-    <>
-    <noscript>Jai Shri Ram NFT, Jaishriram NFT,jaishriram,Ram mandir, Ram bhagwan NFT</noscript>
-      <nav className='navbar' >
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <h2 className="hero " data-text="JAI SHRI RAM"><span>JAI SHRI RAM</span></h2>
-            <img className='swastik-img' src={swastik} width="25px" height = "25px" alt="swastik" style={{paddingLeft:"2px"}}/>
-          </Link>
-
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-          </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
-              HOME
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/MINT'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                MINT
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/FAQ'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                FAQ
-              </Link>
-            </li>
-
-  
-          </ul>
+import { Container } from "react-bootstrap";
+import { Navbar } from "react-bootstrap";
+import Avatar from "../assets/swastik.png"
+import { Nav } from "react-bootstrap";
+import "./Navbar.css"
+function ResNavbar(){
+    return(
+        <Navbar  collapseOnSelect style={{backgroundColor:"rgba(0,0,0,0.4)",
+        height:"80px"
+        }} variant="dark" sticky="top" expand="lg" className="p-3">
           
-        </div>
-      </nav>
-    </>
-  );
-} 
+            <Navbar.Brand href="/" style={{
 
-export default Navbar;
+              fontSize:"2rem",
+              fontWeight:900,
+    
+          
+            }}><Container fluid className="justify-content-center hero" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>&nbsp;Jai Shri Ram<img width="40vw" height="40vh" alt="metatigers logo" src={Avatar}></img></Container></Navbar.Brand>
+          <Navbar.Toggle
+           aria-controls="responsive-navbar"/>
+          <Navbar.Collapse style={{
+            textAlign:"center"
+          }} id="responsive-navbar">
+          <Nav style={{
+            width:"100%",
+            display:"flex",
+            justifyContent:"flex-end"
+
+          }} className="me-auto">
+        <Nav.Link className=" nav-link"   href="/">HOME</Nav.Link>
+        <Nav.Link  className="nav-link " href="/MINT">MINT</Nav.Link>
+        <Nav.Link className="nav-link " href="/FAQ">FAQ</Nav.Link>
+        </Nav>
+        </Navbar.Collapse>
+        </Navbar>
+
+
+    )
+}
+export default ResNavbar;

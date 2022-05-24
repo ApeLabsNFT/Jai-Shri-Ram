@@ -17,10 +17,29 @@ export const CTAButton = styled(Button)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(180deg, #604ae5 0%, #813eee 100%);
+  background: rgb(18,18,18);
+  background: radial-gradient(circle, rgba(18,18,18,1) 3%, rgba(212,1,1,1) 98%, rgba(18,18,18,1) 100%); 
+  opacity:1,
+  font-family: 'Akira Expanded', sans-serif;
+  letter-spacing:4px;
   color: white;
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 1.5vw;
+  font-weight: 900;
+  background: rgb(18,18,18);
+  background: radial-gradient(circle, rgba(18,18,18,1) 36%, red 100%, rgba(4,4,4,1) 100%); 
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+@keyframes gradient {
+0% {
+  background-position: 0% 50%;
+}
+50% {
+  background-position: 100% 50%;
+}
+100% {
+  background-position: 0% 50%;
+}
+}
 `; // add your own styles here
 
 export const MintButton = ({
