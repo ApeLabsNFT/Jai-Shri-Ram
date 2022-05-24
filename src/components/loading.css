@@ -1,8 +1,8 @@
 .vod {
     align-content:center;
     display:flex;
-    width:"100%";
-    height:90vh;
+    width:100%;
+    height: fit-content;
 flex-direction: row;
     justify-content:center;
     filter: saturate(120%);
@@ -24,7 +24,7 @@ flex-direction: row;
     position: absolute;
     border-radius: 80px;
 
-    top: 94%;
+    top: 96%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -49,9 +49,12 @@ flex-direction: row;
       justify-content: center;
   }
   @media screen and (max-width: 500px) and (min-width: 300px)  {
+    .vod{
+      justify-content: center;
+    }
       .gettohome{
-
-margin-top: -2  0%;        display: block;
+top:70%;
+        display: block;
 
       }
       .control{
