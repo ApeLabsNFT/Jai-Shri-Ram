@@ -29,9 +29,11 @@ function Parrallax(){
 //   </>)
 <div className="landing">
   <div className="texts">
+    <div className="textsright">
   <h1 class='landhead'>Jai Shri Ram</h1>
   <p class='landp'>An embodiment of chivalry and virtue,<br></br> Ramachandra or Lord Rama is the seventh<br></br>incarnation of Vishnu- the protector of the universe.
 </p>
+</div>
   </div>
   <div className="landcard">
  <div className="bootcard">
