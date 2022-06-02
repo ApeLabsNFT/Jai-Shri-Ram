@@ -27,7 +27,7 @@ function ResNavbar(){
             justifyContent:"flex-end"
 
           }} className="me-auto">
-        <Nav.Link className=" nav-link"   href="/">HOME</Nav.Link>
+        <Nav.Link className=" nav-link"   href="/HOME">HOME</Nav.Link>
         <Nav.Link  className="nav-link " href="/MINT">MINT</Nav.Link>
         <Nav.Link className="nav-link " href="/FAQ">FAQ</Nav.Link>
         </Nav>
