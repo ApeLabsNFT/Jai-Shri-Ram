@@ -1,6 +1,6 @@
 
 import "./parrallax.css"
-import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom"
   import nft22 from "../assets/nft32.png"
   import solana from "../assets/solanaLogo.png"
   
@@ -39,7 +39,7 @@ function Parrallax(){
    <h1 className="headcard">Jai Shri Ram</h1>
    <p className="headp">By Rachyata Tech</p>
    <div className="mintnow">
-     <Button className="landbut">Mint Now</Button>
+     <Link to="/MINT" className="landbut">Mint Now</Link>
      
    </div>
    <hr width="100%"></hr>
