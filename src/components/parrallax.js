@@ -36,7 +36,7 @@ function Parrallax(){
   </div>
   <div className="landcard">
   <Card className="bootcard">
-  <Card.Img variant="top" className="landimage" src={nft22}/>
+  {/* <Card.Img variant="top" className="landimage" src={nft22}/> */}
   <Card.Body>
     <Card.Title className="landcardtext" 
     

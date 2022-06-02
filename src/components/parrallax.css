@@ -201,11 +201,10 @@ border-radius:100px
     
   }
   .landimage{
-    
+    width: 20%;
     border-radius: 50px;
   }
   .bootcard{
-    height: fit-content;
    width:70%;
     border-radius: 50px;
   }
