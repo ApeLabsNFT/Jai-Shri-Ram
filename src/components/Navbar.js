@@ -15,7 +15,7 @@ function ResNavbar(){
               fontWeight:900,
     
           
-            }}><Container fluid className="justify-content-center hero" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>&nbsp;Jai Shri Ram<img width="40vw" height="40vh" alt="metatigers logo" src={Avatar}></img></Container></Navbar.Brand>
+            }}><Container fluid className="justify-content-center hero" style={{display:"flex",alignItems:"center",justifyContent:"center"}}>&nbsp;Jai Shri Ram<img width="40vw" height="40vh" alt="Jaishriram logo" src={Avatar}></img></Container></Navbar.Brand>
           <Navbar.Toggle
            aria-controls="responsive-navbar"/>
           <Navbar.Collapse style={{
