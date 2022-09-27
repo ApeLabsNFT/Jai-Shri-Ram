@@ -8,7 +8,7 @@
       text-align: center;
       font-size: 2rem;
       height: 100px;
-      width: 350px;
+      width: 320px;
       
       border-radius: 50% / 100% 100% 0 0;
     background-color: #fe5400;
@@ -29,6 +29,7 @@
     .circle-container{
         
         padding: 20%;
+        /* background-color: aliceblue; */
         display: flex;
         flex-direction: column;
         justify-content: center;

@@ -5,12 +5,12 @@ function Contact(){
     return(
         <div class="contact">
             <h1  className="con">Contact Us</h1> 
-            <img src="https://img.icons8.com/emoji/96/ffffff/e-mail.webp" alt="jaishriram email"/>
+            <img src="https://img.icons8.com/color/96/000000/circled-envelope.png" alt="jaishriram email"/>
             <div class="phone">
             
 
             
-            <span class="email">Email: rachyatatech@gmail.com</span>
+            <span class="email">Email: info@jaishriram.io</span>
             </div>
         </div>
     )
